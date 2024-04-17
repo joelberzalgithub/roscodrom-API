@@ -1,0 +1,20 @@
+{
+  "name": "roscodrom-api",
+  "version": "1.0.0",
+  "description": "project for ies esteve terrades ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "alex chica",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "mongoose": "^8.3.2",
+    "rimraf": "^5.0.5",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "supertest": "^6.3.4"
+  }
+}
