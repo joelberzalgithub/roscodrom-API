@@ -1,0 +1,41 @@
+users:
+
+  - userId
+  - nickname
+  - email
+  - phoneNumber
+  - avatar
+
+
+dictionaries
+
+  - dictionaryId
+  - language
+  - words   -> [blue, red, yellow, ...]
+  
+
+matches
+
+  - matchId
+  - dictionaryId
+  - letters -> [a, b, c, d, e, ..]
+  - words   -> [cheese, bacon, ...]
+  - userScores -> [nickname: 20, nickname: 30, ...]
+  - startDate
+  - endDate
+
+
+actions
+
+  - actionId
+  - actionTypeId
+  - userId
+  - matchId
+  - timestamp
+  - actionData -> [word: cheese, score: 10, ...]
+  
+
+actionTypes:
+  - actionTypeId
+  - name
+  - description
