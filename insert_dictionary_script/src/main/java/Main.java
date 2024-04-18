@@ -4,8 +4,10 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
+import entities.Dictionary;
+import entities.MongoConfiguration;
+import entities.Word;
 import org.bson.Document;
-import org.bson.conversions.Bson;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -56,12 +58,12 @@ public class Main {
 
 
 /*
-List<Word> words = new ArrayList<>();
+List<entities.Word> words = new ArrayList<>();
         File dictionaryFile = new File(dictionaryPath);
         try (BufferedReader fileReader = new BufferedReader(new FileReader(dictionaryFile))) {
             String line;
             while ((line = fileReader.readLine()) != null) {
-                Word word = new Word(line, 0);
+                entities.Word word = new entities.Word(line, 0);
                 words.add(word);
             }
         }

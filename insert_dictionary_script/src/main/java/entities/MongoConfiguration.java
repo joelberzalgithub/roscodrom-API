@@ -1,3 +1,5 @@
+package entities;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -65,6 +67,6 @@ public class MongoConfiguration {
 
     @Override
     public String toString() {
-        return "MongoConfiguration{" + "password='" + password + '\'' + ", user='" + user + '\'' + ", ip='" + ip + '\'' + ", port='" + port + '\'' + '}';
+        return "entities.MongoConfiguration{" + "password='" + password + '\'' + ", user='" + user + '\'' + ", ip='" + ip + '\'' + ", port='" + port + '\'' + '}';
     }
 }
