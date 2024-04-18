@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    public static final String CONFIGURATION_FILE_PATH = "java_scripts/src/main/config/config.json";
+    public static final String CONFIGURATION_FILE_PATH = "insert_dictionary_script/src/main/config/config.json";
 
     public static void main(String[] args) throws IOException {
         ObjectMapper mapper = new ObjectMapper();

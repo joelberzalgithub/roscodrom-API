@@ -3,6 +3,6 @@
   "mongoUser": "root",
   "mongoIp": "127.0.0.1",
   "mongoPort": "27017",
-  "dictionaryPath": "java_scripts/src/main/data/dictionaries/catalan.txt",
+  "dictionaryPath": "insert_dictionary_script/src/main/data/dictionaries/catalan.txt",
   "dictionaryName": "catalan"
 }
