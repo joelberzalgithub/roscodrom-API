@@ -11,16 +11,17 @@ router.post('/user/register', async (req, res) => {
     try {
         userTemplate = new User.Template(body);
         if (userUtils.isValidUser(userTemplate)) {
-            const user = await User.User.create(userTemplate);
+            if (userUtils.isValidNickname(userTemplate.nickname)) {
+                const user = await User.User.create(userTemplate);
+                console.log(user);
 
-            responseBody = utils.buildResponse(200, "Success", {apiKey: userTemplate.apiKey});
-            res.send(responseBody);
-
+                responseBody = utils.buildResponse(200, "Success", {apiKey: userTemplate.apiKey});
+                res.send(responseBody);
+            }
         } else {
             responseBody = utils.buildResponse(400, "Bad request.");
             res.status(400).send(responseBody);
         }
-
     } catch (error) {
         responseBody = utils.buildResponse(500, "Internal server error.");
         res.status(500).send(error.message);

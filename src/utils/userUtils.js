@@ -17,6 +17,16 @@ function isValidUser(userTemplate) {
     return valid;
 }
 
+async function isValidNickname(nickname) {
+    const valid = true;
+    const foundUser = await User.User.findOne({nickname: nickname});
+    if (foundUser !== undefined) {
+        return !valid;
+    }
+    return valid;
+}
+
 module.exports = {
-    isValidUser:isValidUser
+    isValidUser:isValidUser,
+    isValidNickname:isValidNickname
 }
