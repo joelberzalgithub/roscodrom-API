@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Opcions comunes per a MAVEN_OPTS
-export MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --module-path"
+export MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED"
 
 # Opcions específiques per a Darwin
 if [[ "$OSTYPE" == "darwin"* ]]; then
