@@ -1,2 +1,4 @@
-Dictionary.class
-Word.class
+entities/Dictionary.class
+Main.class
+entities/Word.class
+entities/MongoConfiguration.class
