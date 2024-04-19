@@ -4,7 +4,6 @@ const router = express.Router();
 
 
 router.get('/words/:dictionary', async (req, res) => {
-    console.log("xd");
     try {
         const page = req.query.page;
         const size = req.query.size;

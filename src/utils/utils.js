@@ -10,7 +10,7 @@ function generateApiKey() {
     return crypto.randomBytes(Math.ceil(keyLength / 2)).toString('hex').slice(0, keyLength);
 }
 
-function buildResponse(code, message, data) {
+function buildResponse(code, message, data = {}) {
     return {
         statusCode: code,
         message: message,
