@@ -1,6 +1,6 @@
 {
-  "mongoPassword": "passpj03",
-  "mongoUser": "root",
+  "mongoPassword": "password",
+  "mongoUser": "admin",
   "mongoIp": "127.0.0.1",
   "mongoPort": "27017",
   "dictionaryPath": "src/main/data/dictionaries/catalan.txt",

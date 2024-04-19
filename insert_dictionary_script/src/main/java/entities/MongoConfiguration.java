@@ -38,7 +38,7 @@ public class MongoConfiguration {
     }
 
     public String getMongoDBURL() {
-        return "mongodb://" + user + ":" + password + "@" + ip + ":" + port + "/";
+        return "mongodb://" + user + ":" + password + "@" + ip + ":" + port + "/roscodrom";
     }
 
     public void setPassword(String password) {
