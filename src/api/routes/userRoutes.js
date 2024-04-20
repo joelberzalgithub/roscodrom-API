@@ -13,16 +13,22 @@ router.post('/user/register', async (req, res) => {
     logger.info(`Received request at /user/register`);
     try {
         userTemplate = new User.Template(body);
-        const valid = await userUtils.isValidUser(userTemplate);
-        if (valid) {
-            const user = await User.User.create(userTemplate);
-
-            responseBody = utils.buildResponse(200, "Success", {apiKey: userTemplate.apiKey});
-            res.send(responseBody);
-        } else {
+        let valid = await userUtils.isValidUser(userTemplate);
+        if (!valid) {
             responseBody = utils.buildResponse(400, "Bad request.");
             res.status(400).send(responseBody);
+            return;
+        } 
+        valid = await userUtils.isValidNickname(userTemplate.nickname);
+        if (!valid) {
+            responseBody = utils.buildResponse(409, "Conflict.");
+            res.status(400).send(responseBody);
+            return;
         }
+        const user = await User.User.create(userTemplate);
+        responseBody = utils.buildResponse(200, "Success", {apiKey: userTemplate.apiKey});
+        res.send(responseBody);
+
     } catch (error) {
         logger.info(`An error happened while processing /user/register`, error);
         responseBody = utils.buildResponse(500, "Internal server error.");

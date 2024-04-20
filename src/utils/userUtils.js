@@ -11,7 +11,6 @@ async function isValidUser(userTemplate) {
     else if (userTemplate.phoneNumber === undefined) {
         valid = false;
     }
-    valid = await isValidNickname(userTemplate.nickname);
     return valid;
 }
 
