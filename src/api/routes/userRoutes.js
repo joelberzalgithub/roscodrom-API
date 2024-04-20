@@ -2,12 +2,15 @@ const utils = require('../../utils/utils');
 const userUtils = require('../../utils/userUtils')
 const User = require('../models/user');
 const express = require('express');
+const logger = require('../../logger');
 const router = express.Router();
 
 
 router.post('/user/register', async (req, res) => {
     const body = req.body;
     let responseBody = {};
+
+    logger.info(`Received request at /user/register`);
     try {
         userTemplate = new User.Template(body);
         const valid = await userUtils.isValidUser(userTemplate);
@@ -21,6 +24,7 @@ router.post('/user/register', async (req, res) => {
             res.status(400).send(responseBody);
         }
     } catch (error) {
+        logger.info(`An error happened while processing /user/register`, error);
         responseBody = utils.buildResponse(500, "Internal server error.");
         res.status(500).send(error.message);
     }
