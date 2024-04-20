@@ -1,27 +1,25 @@
 const User = require('../api/models/user');
 
-function isValidUser(userTemplate) {
-    const valid = true;
+async function isValidUser(userTemplate) {
+    let valid = true;
     if (userTemplate.nickname === undefined) {
-        return !valid;
+        valid = false;
     }
-    if (userTemplate.email === undefined) {
-        return !valid;
+    else if (userTemplate.email === undefined) {
+        valid = false;
     }
-    if (userTemplate.phoneNumber === undefined) {
-        return !valid;
+    else if (userTemplate.phoneNumber === undefined) {
+        valid = false;
     }
-    if (userTemplate.avatar === undefined) {
-        return !valid;
-    }
+    valid = await isValidNickname(userTemplate.nickname);
     return valid;
 }
 
 async function isValidNickname(nickname) {
-    const valid = true;
+    let valid = true;
     const foundUser = await User.User.findOne({nickname: nickname});
-    if (foundUser !== undefined) {
-        return !valid;
+    if (foundUser !== null) {
+        valid = !valid;
     }
     return valid;
 }
