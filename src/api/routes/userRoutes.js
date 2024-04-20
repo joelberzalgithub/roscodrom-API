@@ -1,40 +1,29 @@
-const utils = require('../../utils/utils');
-const userUtils = require('../../utils/userUtils')
-const User = require('../models/user');
 const express = require('express');
 const logger = require('../../logger');
+const utils = require('../../utils/utils');
+const userUtils = require('../../utils/userUtils');
+const User = require('../models/user');
+
 const router = express.Router();
 
-
 router.post('/user/register', async (req, res) => {
-    const body = req.body;
-    let responseBody = {};
-
     logger.info(`Received request at /user/register`);
     try {
-        userTemplate = new User.Template(body);
+        const userTemplate = new User.Template(req.body);
         let valid = await userUtils.isValidUser(userTemplate);
         if (!valid) {
-            responseBody = utils.buildResponse(400, "Bad request.");
-            res.status(400).send(responseBody);
-            return;
-        } 
+            return res.status(400).send(utils.buildResponse(400, "Bad request."));
+        }
         valid = await userUtils.isValidNickname(userTemplate.nickname);
         if (!valid) {
-            responseBody = utils.buildResponse(409, "Conflict.");
-            res.status(400).send(responseBody);
-            return;
+            return res.status(409).send(utils.buildResponse(409, "Conflict."));
         }
         const user = await User.User.create(userTemplate);
-        responseBody = utils.buildResponse(200, "Success", {apiKey: userTemplate.apiKey});
-        res.send(responseBody);
-
+        return res.send(utils.buildResponse(200, "Success", {apiKey: userTemplate.apiKey}));
     } catch (error) {
-        logger.info(`An error happened while processing /user/register`, error);
-        responseBody = utils.buildResponse(500, "Internal server error.");
-        res.status(500).send(error.message);
+        logger.error(`An error occurred while processing /user/register`, error);
+        return res.status(500).send(utils.buildResponse(500, "Internal server error."));
     }
 });
-
 
 module.exports = router;
