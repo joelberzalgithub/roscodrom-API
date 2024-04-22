@@ -17,6 +17,7 @@ router.get('/words/:dictionary', async (req, res) => {
         if (!words) {
             return res.status(404).send("No words found");
         }
+        logger.info(words);
         res.send(words);
     } catch (error) {
         logger.error(`An error happened processing /get/words/:dictionary request`, error);
