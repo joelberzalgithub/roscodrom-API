@@ -14,6 +14,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,10 +41,11 @@ public class Main {
         }
 
         File dictionaryFile = new File(dictionaryPath);
-        BufferedReader fileReader = new BufferedReader(new FileReader(dictionaryFile, Charset.defaultCharset()));
+        BufferedReader fileReader = new BufferedReader(new FileReader(dictionaryFile, StandardCharsets.UTF_8));
         List<Document> words = new ArrayList<>();
         String line;
         while ((line = fileReader.readLine()) != null) {
+            System.out.println("Reading word: " + line);
             String wordData = mapper.writeValueAsString(new Word(line, 0, dictionaryName));
             words.add(Document.parse(wordData));
         }
