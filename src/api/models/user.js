@@ -8,7 +8,7 @@ class UserTemplate {
         this.nickname = body.nickname;
         this.email = body.email;
         this.phoneNumber = body.phoneNumber;
-        this.avatar = body.avatar;
+        this.avatar = body.avatar === undefined ? '' : body.avatar;
     }
 }
 
