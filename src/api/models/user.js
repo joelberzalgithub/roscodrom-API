@@ -9,6 +9,7 @@ class UserTemplate {
         this.email = body.email;
         this.phoneNumber = body.phoneNumber;
         this.avatar = body.avatar === undefined ? '' : body.avatar;
+        this.socket = null;
     }
 }
 

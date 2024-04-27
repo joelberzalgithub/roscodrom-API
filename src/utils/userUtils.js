@@ -23,7 +23,13 @@ async function isValidNickname(nickname) {
     return valid;
 }
 
+async function findUserByNickname(nickname) {
+    const user = await User.User.findOne({nickname: nickname});
+    return user;
+}
+
 module.exports = {
-    isValidUser:isValidUser,
-    isValidNickname:isValidNickname
+    isValidUser,
+    isValidNickname,
+    findUserByNickname
 }

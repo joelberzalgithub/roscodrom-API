@@ -10,7 +10,7 @@ class Room {
     }
 
     addPlayer(player) {
-        this.players.set(player.uuid, player.nickname);
+        this.players.set(player.socket, player);
         if (!this.isTimerActive && this.players.size === 1) {
             this.startTimer();
         }
@@ -38,6 +38,11 @@ class Room {
             } else {
                 clearInterval(this.timer);
                 this.isTimerActive = false;
+                this.players.forEach((player) => {
+                    player.socket.emit('start', {
+                        type: 'start'
+                    });
+                });
                 logger.info(`The game is starting!`);
             }
         }, 1000);
