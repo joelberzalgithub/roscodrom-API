@@ -28,8 +28,14 @@ async function findUserByNickname(nickname) {
     return user;
 }
 
+async function authenticateUser(nickname, apiKey) {
+    const user = await User.User.findOne({nickname: nickname, apiKey: apiKey});
+    return user;
+}
+
 module.exports = {
     isValidUser,
     isValidNickname,
-    findUserByNickname
+    findUserByNickname,
+    authenticateUser
 }
