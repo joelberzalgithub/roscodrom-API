@@ -6,7 +6,6 @@ async function handleJoinMessage(nickname, apiKey) {
     return user;
 }
 
-
 module.exports = {
     handleJoinMessage
 }
