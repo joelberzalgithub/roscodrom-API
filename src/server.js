@@ -5,8 +5,9 @@ const logger = require('./logger');
 const protocols = require('./game/messageProtocol');
 const Room = require('./game/classes/room');
 const { generateUUID } = require('./utils/utils');
+const wordUtils = require('./utils/wordUtils');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 const server = http.createServer(app);
 
@@ -54,6 +55,22 @@ io.on('connection', socket => {
             logger.error(`Something went wrong while adding user with nickname ${nickname} to the room`);
         }
 
+    });
+
+    socket.on('word', async (message) => {
+        const data = JSON.parse(message);
+        const word = data.word; 
+
+        let score = 0;
+        const exists = wordUtils.wordExists(word);
+        if (exists) {
+            score = await wordUtils.evaluateWord(word);
+        }
+
+        socket.emit('score', JSON.stringify({
+            score: score
+        }));
+        
     });
 
     socket.on('disconnect', async () => {

@@ -11,7 +11,7 @@ class Match {
         this.scores = new Map();
     }
 
-    start() {
+    async start() {
         this.startMatchCountdown();
     }
 
@@ -26,6 +26,12 @@ class Match {
                 millisLeft = millisLeft - 1000;
             } else {
                 clearInterval(this.startCountdown);
+                await this.room.users.forEach(user => {
+                    this.scores.set(user.nickname, 0);
+                });
+                this.room.broadcast('matchStart', JSON.stringify({
+                    message: 'The match has started!'
+                }));
                 this.matchStarted = true;
                 this.startMatchTimer();
             }

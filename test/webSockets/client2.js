@@ -58,21 +58,12 @@ async function displayMenu() {
     rl.question("Enter your choice: ", (choice) => {
         switch (choice.trim()) {
             case '1':
-                /*
                 socket.emit('join', JSON.stringify(
                     {
                         nickname: 'joel',
                         apiKey: 'a40eb6e51a163bd05267124753267e9abd903461f0482cedf8589af0b547a802'
                     }
                 ));
-                */
-                socket.emit('join', JSON.stringify(
-                    {
-                        nickname: 'alex', //'joel'
-                        apiKey: 'de55c8bc3dabf8ecdc4e382ddc422301556ce3f91eec60c55feb53e58147b33b' //'a40eb6e51a163bd05267124753267e9abd903461f0482cedf8589af0b547a802'
-                    }
-                ));
-                
                 displayMenu();
                 break;
             case '2':
