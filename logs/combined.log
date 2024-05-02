@@ -251,3 +251,68 @@
 [95m[2024-05-02T16:15:47.706Z] [96m[INFO]: Room 9fa46d2f-65b7-43d4-84dc-8aa28e7c4da3 match has started[0m
 [95m[2024-05-02T16:15:53.738Z] [96m[INFO]: Room 9fa46d2f-65b7-43d4-84dc-8aa28e7c4da3 match has ended[0m
 [95m[2024-05-02T16:15:53.739Z] [93m[WARN]: Deleting room 9fa46d2f-65b7-43d4-84dc-8aa28e7c4da3[0m
+[95m[2024-05-02T19:03:03.854Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:03:33.096Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:05:19.875Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:05:23.854Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:05:53.021Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:05:55.395Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:06:11.300Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:06:41.290Z] [91m[ERROR]: Unable to connect to MongoDB connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[0m
+[95m[2024-05-02T19:07:44.124Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:07:46.752Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:07:46.804Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:08:09.231Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:08:11.866Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:08:11.895Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:08:13.426Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:09:27.461Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:09:27.493Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:09:28.794Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:10:12.095Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:10:42.095Z] [91m[ERROR]: Unable to connect to MongoDB getaddrinfo ENOTFOUND mongo-ams2-pj03[0m
+[95m[2024-05-02T19:11:04.027Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:11:06.617Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:11:28.163Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:11:33.478Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:11:33.521Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:11:45.628Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:11:48.274Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:11:48.304Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:11:49.121Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:12:03.748Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:12:03.791Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:12:04.877Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:12:39.626Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:12:39.667Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T19:12:49.151Z] [96m[INFO]: Received join message from socket Nv5-w2NMlPXIO9m9AAAB[0m
+[95m[2024-05-02T19:12:49.160Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T19:12:49.162Z] [91m[ERROR]: Something went wrong while adding user with nickname alex to the room[0m
+[95m[2024-05-02T19:13:29.347Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:14:32.500Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:14:32.541Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T19:14:36.364Z] [96m[INFO]: Received join message from socket ZTplEZtj6bFHxEx2AAAB[0m
+[95m[2024-05-02T19:14:36.373Z] [93m[WARN]: Unable to authenticate user.[0m
+[95m[2024-05-02T19:14:36.373Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T19:14:36.374Z] [91m[ERROR]: Something went wrong while adding user with nickname alex to the room[0m
+[95m[2024-05-02T19:15:05.168Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:15:07.624Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:15:07.666Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T19:15:08.694Z] [96m[INFO]: Received join message from socket zhatFsMd3TyD1mcMAAAB[0m
+[95m[2024-05-02T19:15:08.703Z] [93m[WARN]: Unable to authenticate user.[0m
+[95m[2024-05-02T19:17:47.639Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:17:50.552Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:17:50.596Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T19:17:54.520Z] [96m[INFO]: Received join message from socket uIZ9SEj2BAUwxJ4GAAAB[0m
+[95m[2024-05-02T19:17:54.528Z] [93m[WARN]: Unable to authenticate user.[0m
+[95m[2024-05-02T19:18:25.335Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:18:27.432Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:18:27.474Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T19:18:29.976Z] [96m[INFO]: Received join message from socket zv-hJngRfmh-olrRAAAB[0m
+[95m[2024-05-02T19:18:29.986Z] [93m[WARN]: Unable to authenticate socket zv-hJngRfmh-olrRAAAB.[0m
+[95m[2024-05-02T19:21:39.597Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T19:21:42.182Z] [96m[INFO]: HTTP Server listening on port 80[0m
+[95m[2024-05-02T19:21:42.225Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T19:21:43.537Z] [96m[INFO]: Received join message from socket MBNG3TES0pi86WF0AAAB[0m
+[95m[2024-05-02T19:21:43.546Z] [93m[WARN]: Unable to authenticate socket MBNG3TES0pi86WF0AAAB. Forcing disconnection.[0m
+[95m[2024-05-02T19:22:04.464Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m

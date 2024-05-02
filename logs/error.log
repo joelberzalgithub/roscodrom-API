@@ -1,1 +1,11 @@
 [95m[2024-05-02T15:31:13.915Z] [91m[ERROR]: Error while updating math 515d14b1-32e6-4cc8-936c-4d3290e9aa05 words. Cannot read properties of undefined (reading 'push')[0m
+[95m[2024-05-02T19:06:41.290Z] [91m[ERROR]: Unable to connect to MongoDB connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[0m
+[95m[2024-05-02T19:07:46.804Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:08:11.895Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:09:27.493Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:10:42.095Z] [91m[ERROR]: Unable to connect to MongoDB getaddrinfo ENOTFOUND mongo-ams2-pj03[0m
+[95m[2024-05-02T19:11:33.521Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:11:48.304Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:12:03.791Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-02T19:12:49.162Z] [91m[ERROR]: Something went wrong while adding user with nickname alex to the room[0m
+[95m[2024-05-02T19:14:36.374Z] [91m[ERROR]: Something went wrong while adding user with nickname alex to the room[0m

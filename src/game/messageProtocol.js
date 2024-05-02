@@ -1,42 +1,56 @@
 const logger = require('../logger');
-const { authenticateUser } = require('../utils/userUtils');
+const {authenticateUser} = require('../utils/userUtils');
 
 const handleJoin = async (socket, data, rooms, logger, Room, generateUUID) => {
     logger.info(`Received join message from socket ${socket.id}`);
-    const { nickname, apiKey } = JSON.parse(data);
+    const {nickname, apiKey} = JSON.parse(data);
+    let roomId = null;
 
     let user = await authenticateUser(nickname, apiKey);
     if (user !== null) {
         logger.info(`User with nickname ${user.nickname} has been validated.`);
         user.socket = socket;
-    }
 
-    let validRoom = null;
-    rooms.forEach(room => {
-        if (room.match !== null && !room.match.matchStarted) {
-            validRoom = room;
+        let validRoom = null;
+        rooms.forEach(room => {
+            if (room.match !== null && !room.match.matchStarted) {
+                validRoom = room;
+            }
+        });
+
+        if (validRoom === null) {
+            logger.warn('No rooms available, creating new one...');
+            validRoom = new Room(generateUUID(), rooms);
+            rooms.set(validRoom.id, validRoom);
         }
-    });
 
-    if (validRoom === null) {
-        logger.warn('No rooms available, creating new one...');
-        validRoom = new Room(generateUUID(), rooms);
-        rooms.set(validRoom.id, validRoom);
-    }
+        const success = validRoom.addUser(user);
+        if (success) {
+            roomId = validRoom.id;
+            logger.info(`Assigned player with nickname ${nickname} to room ${validRoom.id}`);
+            socket.emit('Join', JSON.stringify({
+                success: true,
+                message: 'Success.'
+            }));
 
-    const success = validRoom.addUser(user);
-    if (success) {
-        const roomId = validRoom.id;
-        logger.info(`Assigned player with nickname ${nickname} to room ${validRoom.id}`);
-        return roomId;
+        } else {
+            logger.error(`Something went wrong while adding user with nickname ${nickname} to the room`);
+        }
+
     } else {
-        logger.error(`Something went wrong while adding user with nickname ${nickname} to the room`);
-        return null;
+        logger.warn(`Unable to authenticate socket ${socket.id}. Forcing disconnection.`);
+        socket.emit('Join', JSON.stringify({
+            success: false,
+            message: 'Unable to authenticate with given credentials. Disconnection forced'
+        }));
+        socket.disconnect();
     }
+
+    return roomId;
 };
 
 const handleWord = async (socket, data, wordUtils) => {
-    const { word } = JSON.parse(data);
+    const {word} = JSON.parse(data);
 
     let score = 0;
     const exists = await wordUtils.wordExists(word, 'catalan');

@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 });
 
 console.log('starting client...');
-const socket = io('http://127.0.0.1:3000');
+const socket = io('http://127.0.0.1:80');
 
 socket.on('connect', () => {
     displayMenu();
