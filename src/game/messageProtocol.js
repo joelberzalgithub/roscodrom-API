@@ -1,7 +1,7 @@
 const logger = require('../logger');
 const { authenticateUser } = require('../utils/userUtils');
 
-const handleJoin = async (socket, data, rooms, logger, Room, generateUUID, protocols) => {
+const handleJoin = async (socket, data, rooms, logger, Room, generateUUID) => {
     logger.info(`Received join message from socket ${socket.id}`);
     const { nickname, apiKey } = JSON.parse(data);
 

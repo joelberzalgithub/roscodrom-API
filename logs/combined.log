@@ -213,3 +213,41 @@
 [95m[2024-05-02T15:45:31.925Z] [96m[INFO]: Room d4858520-6348-4f2b-b76e-f4e5c78deb2b match has started[0m
 [95m[2024-05-02T15:45:37.946Z] [96m[INFO]: Room d4858520-6348-4f2b-b76e-f4e5c78deb2b match has ended[0m
 [95m[2024-05-02T15:45:37.948Z] [93m[WARN]: Deleting room d4858520-6348-4f2b-b76e-f4e5c78deb2b[0m
+[95m[2024-05-02T15:54:18.142Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T15:54:33.812Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:54:33.829Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:54:36.507Z] [96m[INFO]: Unidentified socket with id FtsXLNMZwyMw7GjCAAAB has disconnected[0m
+[95m[2024-05-02T15:54:38.865Z] [96m[INFO]: Received join message from socket YJ6S8moQYzaHHnPgAAAD[0m
+[95m[2024-05-02T15:54:38.870Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:54:38.870Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:54:38.870Z] [96m[INFO]: Room c948b6ac-1048-4daa-a7dd-f7a4dd5f04d1 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:54:38.871Z] [96m[INFO]: Assigned player with nickname alex to room c948b6ac-1048-4daa-a7dd-f7a4dd5f04d1[0m
+[95m[2024-05-02T15:54:45.901Z] [96m[INFO]: Room c948b6ac-1048-4daa-a7dd-f7a4dd5f04d1 match has started[0m
+[95m[2024-05-02T15:54:51.928Z] [96m[INFO]: Room c948b6ac-1048-4daa-a7dd-f7a4dd5f04d1 match has ended[0m
+[95m[2024-05-02T15:54:51.929Z] [93m[WARN]: Deleting room c948b6ac-1048-4daa-a7dd-f7a4dd5f04d1[0m
+[95m[2024-05-02T16:04:15.532Z] [96m[INFO]: Unidentified socket with id YJ6S8moQYzaHHnPgAAAD has disconnected[0m
+[95m[2024-05-02T16:05:58.439Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T16:06:00.291Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T16:06:00.309Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T16:06:04.084Z] [96m[INFO]: Received join message from socket GPJrM4RlcZZD8pgUAAAB[0m
+[95m[2024-05-02T16:06:04.091Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T16:06:04.092Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T16:06:04.092Z] [96m[INFO]: Room e6ed0ba8-eea0-4345-ba0b-cc530ebe99ef match starting in 5000 ms.[0m
+[95m[2024-05-02T16:06:04.092Z] [96m[INFO]: Assigned player with nickname alex to room e6ed0ba8-eea0-4345-ba0b-cc530ebe99ef[0m
+[95m[2024-05-02T16:06:10.723Z] [96m[INFO]: Unidentified socket with id GPJrM4RlcZZD8pgUAAAB has disconnected[0m
+[95m[2024-05-02T16:06:11.120Z] [96m[INFO]: Room e6ed0ba8-eea0-4345-ba0b-cc530ebe99ef match has started[0m
+[95m[2024-05-02T16:06:17.138Z] [96m[INFO]: Room e6ed0ba8-eea0-4345-ba0b-cc530ebe99ef match has ended[0m
+[95m[2024-05-02T16:06:17.139Z] [93m[WARN]: Deleting room e6ed0ba8-eea0-4345-ba0b-cc530ebe99ef[0m
+[95m[2024-05-02T16:15:34.774Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T16:15:36.928Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T16:15:36.969Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T16:15:40.675Z] [96m[INFO]: Received join message from socket WrNrr6X69yRdpMKvAAAB[0m
+[95m[2024-05-02T16:15:40.683Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T16:15:40.683Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T16:15:40.684Z] [96m[INFO]: Room 9fa46d2f-65b7-43d4-84dc-8aa28e7c4da3 match starting in 5000 ms.[0m
+[95m[2024-05-02T16:15:40.684Z] [96m[INFO]: Assigned player with nickname alex to room 9fa46d2f-65b7-43d4-84dc-8aa28e7c4da3[0m
+[95m[2024-05-02T16:15:46.782Z] [96m[INFO]: Removed user with nickname alex from room 9fa46d2f-65b7-43d4-84dc-8aa28e7c4da3[0m
+[95m[2024-05-02T16:15:46.782Z] [96m[INFO]: User with nickname alex has disconnected.[0m
+[95m[2024-05-02T16:15:47.706Z] [96m[INFO]: Room 9fa46d2f-65b7-43d4-84dc-8aa28e7c4da3 match has started[0m
+[95m[2024-05-02T16:15:53.738Z] [96m[INFO]: Room 9fa46d2f-65b7-43d4-84dc-8aa28e7c4da3 match has ended[0m
+[95m[2024-05-02T16:15:53.739Z] [93m[WARN]: Deleting room 9fa46d2f-65b7-43d4-84dc-8aa28e7c4da3[0m

@@ -33,6 +33,20 @@ class Room {
     }
 
     /**
+     * Gets a user that matches the given socket.
+     * @param {object} socket The socket that need to be matched.
+     * @returns User found, null otherwise.
+     */
+    getUserBySocket(socket) {
+        let user;
+        this.users.forEach((value) => {
+            if (value.socket === socket) user = value;
+        });
+
+        return user ? user : null;
+    }
+
+    /**
      * Removes a user from the room.
      * @param {object} user - The user to be removed from the room.
      * @returns {boolean} - True if the user was successfully removed, false otherwise.

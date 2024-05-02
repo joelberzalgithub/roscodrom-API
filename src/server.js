@@ -34,7 +34,10 @@ io.on('connection', socket => {
     let roomId = null;
 
     socket.on('join', async (message) => {
-        roomId = await handleJoin(socket, message, rooms, logger, Room, generateUUID, protocols);
+        roomId = await handleJoin(socket, message, rooms, logger, Room, generateUUID, user);
+        if (roomId !== null) {
+            user = rooms.get(roomId).getUserBySocket(socket);
+        }
     });
 
     socket.on('word', async (message) => {
