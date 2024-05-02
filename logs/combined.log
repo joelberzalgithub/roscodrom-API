@@ -80,3 +80,136 @@
 [95m[2024-05-02T14:46:38.959Z] [96m[INFO]: Room c1f01ac8-88ef-4aa4-87a5-d0a04be718bd match has started[0m
 [95m[2024-05-02T14:46:44.977Z] [96m[INFO]: Room c1f01ac8-88ef-4aa4-87a5-d0a04be718bd match has ended[0m
 [95m[2024-05-02T14:46:44.978Z] [93m[WARN]: Deleting room c1f01ac8-88ef-4aa4-87a5-d0a04be718bd[0m
+[95m[2024-05-02T15:00:59.388Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:00:59.405Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:01:10.759Z] [96m[INFO]: Received join message from socket kEQXcDsrzhWZH8isAAAB[0m
+[95m[2024-05-02T15:01:10.764Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:01:10.764Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:01:10.764Z] [96m[INFO]: Room 0615aa17-242d-4a0f-8495-897c62e48818 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:01:10.765Z] [96m[INFO]: Assigned player with nickname alex to room 0615aa17-242d-4a0f-8495-897c62e48818[0m
+[95m[2024-05-02T15:01:17.793Z] [96m[INFO]: Room 0615aa17-242d-4a0f-8495-897c62e48818 match has started[0m
+[95m[2024-05-02T15:01:23.824Z] [96m[INFO]: Room 0615aa17-242d-4a0f-8495-897c62e48818 match has ended[0m
+[95m[2024-05-02T15:01:23.824Z] [93m[WARN]: Deleting room 0615aa17-242d-4a0f-8495-897c62e48818[0m
+[95m[2024-05-02T15:10:01.409Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:10:01.426Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:10:04.889Z] [96m[INFO]: Received join message from socket -L9DowH9f1Fv4ZUfAAAB[0m
+[95m[2024-05-02T15:10:04.895Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:10:04.895Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:10:04.895Z] [96m[INFO]: Room 7826dac5-adcf-4bc8-ae41-a8b64184f850 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:10:04.895Z] [96m[INFO]: Assigned player with nickname alex to room 7826dac5-adcf-4bc8-ae41-a8b64184f850[0m
+[95m[2024-05-02T15:10:11.927Z] [96m[INFO]: Room 7826dac5-adcf-4bc8-ae41-a8b64184f850 match has started[0m
+[95m[2024-05-02T15:11:28.813Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:11:28.830Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:11:31.336Z] [96m[INFO]: Received join message from socket EVCFk3iw-o1pdnjQAAAB[0m
+[95m[2024-05-02T15:11:31.343Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:11:31.344Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:11:31.344Z] [96m[INFO]: Room 8b11d8e9-3379-48b3-b373-d7a134530360 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:11:31.344Z] [96m[INFO]: Assigned player with nickname alex to room 8b11d8e9-3379-48b3-b373-d7a134530360[0m
+[95m[2024-05-02T15:11:38.376Z] [96m[INFO]: Room 8b11d8e9-3379-48b3-b373-d7a134530360 match has started[0m
+[95m[2024-05-02T15:11:44.398Z] [96m[INFO]: Room 8b11d8e9-3379-48b3-b373-d7a134530360 match has ended[0m
+[95m[2024-05-02T15:11:44.399Z] [93m[WARN]: Deleting room 8b11d8e9-3379-48b3-b373-d7a134530360[0m
+[95m[2024-05-02T15:13:10.954Z] [96m[INFO]: User with nickname alex has disconnected.[0m
+[95m[2024-05-02T15:13:18.706Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:13:18.723Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:13:20.864Z] [96m[INFO]: Received join message from socket Sxr_3J_mm89-uXTrAAAB[0m
+[95m[2024-05-02T15:13:20.869Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:13:20.869Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:13:20.869Z] [96m[INFO]: Room 42619cd1-31fe-48ee-8af1-a5f1f7f476d8 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:13:20.870Z] [96m[INFO]: Assigned player with nickname alex to room 42619cd1-31fe-48ee-8af1-a5f1f7f476d8[0m
+[95m[2024-05-02T15:13:27.900Z] [96m[INFO]: Room 42619cd1-31fe-48ee-8af1-a5f1f7f476d8 match has started[0m
+[95m[2024-05-02T15:13:33.928Z] [96m[INFO]: Room 42619cd1-31fe-48ee-8af1-a5f1f7f476d8 match has ended[0m
+[95m[2024-05-02T15:13:33.929Z] [93m[WARN]: Deleting room 42619cd1-31fe-48ee-8af1-a5f1f7f476d8[0m
+[95m[2024-05-02T15:16:10.825Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:16:10.843Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:16:12.323Z] [96m[INFO]: Received join message from socket lc4iO5gytV0RanDDAAAB[0m
+[95m[2024-05-02T15:16:12.328Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:16:12.328Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:16:12.329Z] [96m[INFO]: Room 15f6d006-fd51-495c-91d5-323cf44a6882 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:16:12.329Z] [96m[INFO]: Assigned player with nickname alex to room 15f6d006-fd51-495c-91d5-323cf44a6882[0m
+[95m[2024-05-02T15:16:19.360Z] [96m[INFO]: Room 15f6d006-fd51-495c-91d5-323cf44a6882 match has started[0m
+[95m[2024-05-02T15:16:25.385Z] [96m[INFO]: Room 15f6d006-fd51-495c-91d5-323cf44a6882 match has ended[0m
+[95m[2024-05-02T15:16:25.386Z] [93m[WARN]: Deleting room 15f6d006-fd51-495c-91d5-323cf44a6882[0m
+[95m[2024-05-02T15:17:06.427Z] [96m[INFO]: Received join message from socket lc4iO5gytV0RanDDAAAB[0m
+[95m[2024-05-02T15:17:06.429Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:17:06.429Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:17:06.429Z] [96m[INFO]: Room b8f79c88-96b7-4d7a-92b1-391fc5bacedc match starting in 5000 ms.[0m
+[95m[2024-05-02T15:17:06.429Z] [96m[INFO]: Assigned player with nickname alex to room b8f79c88-96b7-4d7a-92b1-391fc5bacedc[0m
+[95m[2024-05-02T15:17:11.497Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:17:11.515Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:17:13.384Z] [96m[INFO]: Received join message from socket nZzshC0t-_EMD3zPAAAB[0m
+[95m[2024-05-02T15:17:13.390Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:17:13.390Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:17:13.391Z] [96m[INFO]: Room 9d7a626d-e9ea-4d37-bf8f-6cf97e2b6407 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:17:13.391Z] [96m[INFO]: Assigned player with nickname alex to room 9d7a626d-e9ea-4d37-bf8f-6cf97e2b6407[0m
+[95m[2024-05-02T15:18:07.656Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:18:07.678Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:18:12.566Z] [96m[INFO]: Received join message from socket frFzbEzFH2k7PbiYAAAB[0m
+[95m[2024-05-02T15:18:12.571Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:18:12.571Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:18:12.571Z] [96m[INFO]: Room b55388e4-2924-4086-b466-6a9ca032d053 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:18:12.571Z] [96m[INFO]: Assigned player with nickname alex to room b55388e4-2924-4086-b466-6a9ca032d053[0m
+[95m[2024-05-02T15:18:19.602Z] [96m[INFO]: Room b55388e4-2924-4086-b466-6a9ca032d053 match has started[0m
+[95m[2024-05-02T15:18:25.632Z] [96m[INFO]: Room b55388e4-2924-4086-b466-6a9ca032d053 match has ended[0m
+[95m[2024-05-02T15:18:25.633Z] [93m[WARN]: Deleting room b55388e4-2924-4086-b466-6a9ca032d053[0m
+[95m[2024-05-02T15:20:11.254Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:20:11.271Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:20:17.076Z] [96m[INFO]: Received join message from socket 1DNgchz0mGKT6A_DAAAB[0m
+[95m[2024-05-02T15:20:17.084Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:20:17.084Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:20:17.085Z] [96m[INFO]: Room d4c99b2b-b463-4d55-882f-73a7823e58da match starting in 5000 ms.[0m
+[95m[2024-05-02T15:20:17.085Z] [96m[INFO]: Assigned player with nickname alex to room d4c99b2b-b463-4d55-882f-73a7823e58da[0m
+[95m[2024-05-02T15:20:24.111Z] [96m[INFO]: Room d4c99b2b-b463-4d55-882f-73a7823e58da match has started[0m
+[95m[2024-05-02T15:20:30.136Z] [96m[INFO]: Room d4c99b2b-b463-4d55-882f-73a7823e58da match has ended[0m
+[95m[2024-05-02T15:20:30.138Z] [93m[WARN]: Deleting room d4c99b2b-b463-4d55-882f-73a7823e58da[0m
+[95m[2024-05-02T15:23:30.640Z] [96m[INFO]: User with nickname alex has disconnected.[0m
+[95m[2024-05-02T15:23:35.446Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:23:35.464Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:23:38.842Z] [96m[INFO]: Received join message from socket lRtBCw74xUisF5UGAAAB[0m
+[95m[2024-05-02T15:23:38.849Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:23:38.850Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:23:38.850Z] [96m[INFO]: Room e6798b78-9bba-43fe-b6d3-433badad806a match starting in 5000 ms.[0m
+[95m[2024-05-02T15:23:38.850Z] [96m[INFO]: Assigned player with nickname alex to room e6798b78-9bba-43fe-b6d3-433badad806a[0m
+[95m[2024-05-02T15:23:45.884Z] [96m[INFO]: Room e6798b78-9bba-43fe-b6d3-433badad806a match has started[0m
+[95m[2024-05-02T15:23:51.916Z] [96m[INFO]: Room e6798b78-9bba-43fe-b6d3-433badad806a match has ended[0m
+[95m[2024-05-02T15:23:51.917Z] [93m[WARN]: Deleting room e6798b78-9bba-43fe-b6d3-433badad806a[0m
+[95m[2024-05-02T15:30:01.637Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:30:01.655Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:31:01.794Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:31:01.811Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:31:06.872Z] [96m[INFO]: Received join message from socket 9dXF9KaQbt4ZJbFEAAAB[0m
+[95m[2024-05-02T15:31:06.877Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:31:06.877Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:31:06.878Z] [96m[INFO]: Room 515d14b1-32e6-4cc8-936c-4d3290e9aa05 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:31:06.878Z] [96m[INFO]: Assigned player with nickname alex to room 515d14b1-32e6-4cc8-936c-4d3290e9aa05[0m
+[95m[2024-05-02T15:31:13.910Z] [96m[INFO]: Room 515d14b1-32e6-4cc8-936c-4d3290e9aa05 match has started[0m
+[95m[2024-05-02T15:31:13.915Z] [91m[ERROR]: Error while updating math 515d14b1-32e6-4cc8-936c-4d3290e9aa05 words. Cannot read properties of undefined (reading 'push')[0m
+[95m[2024-05-02T15:31:19.938Z] [96m[INFO]: Room 515d14b1-32e6-4cc8-936c-4d3290e9aa05 match has ended[0m
+[95m[2024-05-02T15:31:19.939Z] [93m[WARN]: Deleting room 515d14b1-32e6-4cc8-936c-4d3290e9aa05[0m
+[95m[2024-05-02T15:34:57.846Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:34:57.864Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:35:00.251Z] [96m[INFO]: Received join message from socket -8YM5TCtq8uL5ptsAAAB[0m
+[95m[2024-05-02T15:35:00.256Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:35:00.256Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:35:00.257Z] [96m[INFO]: Room 2c2f7a15-2dc9-4f02-a613-6da2167242d8 match starting in 5000 ms.[0m
+[95m[2024-05-02T15:35:00.257Z] [96m[INFO]: Assigned player with nickname alex to room 2c2f7a15-2dc9-4f02-a613-6da2167242d8[0m
+[95m[2024-05-02T15:35:07.287Z] [96m[INFO]: Room 2c2f7a15-2dc9-4f02-a613-6da2167242d8 match has started[0m
+[95m[2024-05-02T15:35:13.316Z] [96m[INFO]: Room 2c2f7a15-2dc9-4f02-a613-6da2167242d8 match has ended[0m
+[95m[2024-05-02T15:35:13.316Z] [93m[WARN]: Deleting room 2c2f7a15-2dc9-4f02-a613-6da2167242d8[0m
+[95m[2024-05-02T15:39:33.581Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:39:33.598Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:41:02.639Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:41:02.656Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:41:03.113Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T15:41:07.028Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:41:07.045Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:45:20.192Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-02T15:45:22.052Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T15:45:22.070Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T15:45:24.885Z] [96m[INFO]: Received join message from socket cKaDiCaWqdKpeOftAAAB[0m
+[95m[2024-05-02T15:45:24.890Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-02T15:45:24.890Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T15:45:24.891Z] [96m[INFO]: Room d4858520-6348-4f2b-b76e-f4e5c78deb2b match starting in 5000 ms.[0m
+[95m[2024-05-02T15:45:24.891Z] [96m[INFO]: Assigned player with nickname alex to room d4858520-6348-4f2b-b76e-f4e5c78deb2b[0m
+[95m[2024-05-02T15:45:31.925Z] [96m[INFO]: Room d4858520-6348-4f2b-b76e-f4e5c78deb2b match has started[0m
+[95m[2024-05-02T15:45:37.946Z] [96m[INFO]: Room d4858520-6348-4f2b-b76e-f4e5c78deb2b match has ended[0m
+[95m[2024-05-02T15:45:37.948Z] [93m[WARN]: Deleting room d4858520-6348-4f2b-b76e-f4e5c78deb2b[0m

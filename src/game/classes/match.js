@@ -1,4 +1,6 @@
 const logger = require('../../logger');
+const { MatchModel } = require('../../api/models/match');
+const utils = require('../../utils/utils');
 
 class Match {
     /**
@@ -15,6 +17,7 @@ class Match {
         this.initialCountdownTime =  initialCountdownTime;
         this.totalMatchDuration = totalMatchDuration
         this.letters = [];
+        this.words = [];
         this.scores = new Map();
     }
 
@@ -66,9 +69,16 @@ class Match {
         else {
             clearInterval(this.initiateCountdown);
             await this.room.users.forEach(user => this.scores.set(user.nickname, 0));
+            this.letters = this.generateLetters();
             
             this.matchStarted = true;
-            this.room.broadcast('matchStart', JSON.stringify({message: 'The match has started!'}));
+            this.room.broadcast('matchStart', JSON.stringify(
+                {
+                    message: 'The match has started!',
+                    letters: this.letters
+                }));
+                
+            this.insertMatchOnDB();
             this.initiateMatchTimer();
         }
     }
@@ -88,6 +98,7 @@ class Match {
             logger.info(`Room ${this.room.id} match has ended`);
             clearInterval(this.initiateTimer);
 
+            this.updateMatchEndDate();
             this.broadcastScores();
             this.room.removeAllUsers();
         }
@@ -117,6 +128,80 @@ class Match {
 
         return JSON.stringify({ranking: sortedRanking});
     }
+
+    /**
+     * Generates an array of 10 letters, of which atleast 2 are vowels.
+     * 
+     * @returns Array of ten letters.
+     */
+    generateLetters() {
+        const vowels = ['a', 'e', 'i', 'o', 'u'];
+        const consonants = 'bcdfghjklmnpqrstvwxyz'.split('');
+    
+        let letters = [];
+        let vowelCount = 0;
+    
+        for (let i = 0; i < 10; i++) {
+            let letter;
+            if (vowelCount < 2 || Math.random() < 0.5) {
+                letter = vowels[Math.floor(Math.random() * vowels.length)];
+                vowelCount++;
+            } else {
+                letter = consonants[Math.floor(Math.random() * consonants.length)];
+            }
+            letters.push(letter);
+        }
+    
+        return letters;
+    }
+
+    /**
+     * Inserts the match on it's starting status on the mongoDB database.
+     * 
+     */
+    insertMatchOnDB() {
+        MatchModel.create({
+            matchId: this.room.id,
+            letters: this.letters,
+            language: "catalan",
+            startDate: utils.getISOTimestampWithMilliseconds(),
+            userScores: JSON.parse(this.calculateRanking()).ranking,
+            endDate: null,
+            words: this.words
+        });
+    }
+
+    async updateMatchWords(word) {
+        try {
+            const match = await MatchModel.find({matchId: this.room.id});
+
+            if (!match) {
+                throw Error(`No matching match found.`);
+            }
+
+            const wordArray = match.words || [];
+            wordArray.push(word);
+
+            await MatchModel.updateOne({matchId: this.room.id}, {words: wordArray});
+        }
+        catch (error) {
+            logger.error(`Error while updating math ${this.room.id} words.`, error);
+        }
+    }
+
+    /**
+     * Updates the match endDate on the mongoDB database.
+     * 
+     */
+    async updateMatchEndDate() {
+        try {
+            await MatchModel.updateOne({matchId: this.room.id}, {endDate: utils.getISOTimestampWithMilliseconds()});
+        }
+        catch (error) {
+            logger.error(`Error while updating match ${this.room.id} end date.`, error);
+        }
+    }
+
 }
 
 module.exports = Match;
