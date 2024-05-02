@@ -6,7 +6,7 @@ class Match {
         this.startCountdown = null;
         this.matchTimer = null;
         this.matchStarted = false;
-        this.countdownTime = 20000;
+        this.countdownTime = 5000;
         this.letters = [];
         this.scores = new Map();
     }
@@ -40,7 +40,7 @@ class Match {
 
     startMatchTimer() {
         logger.info(`Room ${this.room.id} match has started`);
-        let millisLeft = 20000;
+        let millisLeft = 5000;
         this.matchTimer = setInterval(async () => {
             if (millisLeft > 0) {
                 this.room.broadcast('timeLeft', JSON.stringify({
@@ -58,9 +58,21 @@ class Match {
     }
 
     broadcashScores() {
-        this.room.broadcast('matchScores', JSON.stringify({
-            scores: JSON.stringify(Array.from(this.scores))
-        }));
+        this.room.broadcast('matchScores', this.generateRanking());
+    }
+
+    generateRanking() {
+        const userScores =  [];
+        this.scores.forEach((value, key) => userScores.push([key, value]));
+
+        const ranking = {};
+        userScores.forEach((userScore) => ranking[userScore[0]] = userScore[1]);
+
+        const sortedRanking = Object.fromEntries(
+            Object.entries(ranking).sort(([, a], [, b]) => b - a)
+        );
+
+        return JSON.stringify({ranking: sortedRanking});
     }
 }
 

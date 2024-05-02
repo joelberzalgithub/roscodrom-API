@@ -69,7 +69,7 @@ async function displayMenu() {
             case '2':
                 rl.question('Word: ', (word) => {
                     socket.emit('word', JSON.stringify({
-                        word: word
+                        word: word.trim()
                     }));
                     displayMenu();
                 });

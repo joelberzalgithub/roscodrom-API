@@ -7,7 +7,7 @@ const Room = require('./game/classes/room');
 const { generateUUID } = require('./utils/utils');
 const wordUtils = require('./utils/wordUtils');
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 const server = http.createServer(app);
 
@@ -62,9 +62,9 @@ io.on('connection', socket => {
         const word = data.word; 
 
         let score = 0;
-        const exists = wordUtils.wordExists(word);
+        const exists = await wordUtils.wordExists(word, 'catalan');
         if (exists) {
-            score = await wordUtils.evaluateWord(word);
+            score = await wordUtils.evaluateWord(word, 'catalan');
         }
 
         socket.emit('score', JSON.stringify({
