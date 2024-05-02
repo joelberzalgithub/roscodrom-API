@@ -1,0 +1,82 @@
+[35m[2024-05-02T14:37:24.733Z][36m [INFO]: [37mHTTP Server listening on port 3000[0m
+[35m[2024-05-02T14:37:24.750Z][36m [INFO]: [37mConnected to MongoDB[0m
+[35m[2024-05-02T14:37:30.578Z][36m [INFO]: [37mReceived join message from socket rLSVAz0WwHx66UpjAAAB[0m
+[35m[2024-05-02T14:37:30.583Z][36m [INFO]: [37mUser with nickname joel has been validated.[0m
+[35m[2024-05-02T14:37:30.583Z][33m [WARN]: [37mNo rooms available, creating new one...[0m
+[35m[2024-05-02T14:37:30.583Z][36m [INFO]: [37mRoom 41b12c10-f764-40e8-bf3e-1b425f88a9ef match starting in 5000 ms.[0m
+[35m[2024-05-02T14:37:30.583Z][36m [INFO]: [37mAssigned player with nickname joel to room 41b12c10-f764-40e8-bf3e-1b425f88a9ef[0m
+[35m[2024-05-02T14:37:37.607Z][36m [INFO]: [37mRoom 41b12c10-f764-40e8-bf3e-1b425f88a9ef match has started[0m
+[35m[2024-05-02T14:37:43.630Z][36m [INFO]: [37mRoom 41b12c10-f764-40e8-bf3e-1b425f88a9ef match has ended[0m
+[35m[2024-05-02T14:37:43.631Z][36m [INFO]: [37mDeleting room 41b12c10-f764-40e8-bf3e-1b425f88a9ef[0m
+[95m[2024-05-02T14:38:31.013Z][96m [INFO]: [97mHTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:38:31.031Z][96m [INFO]: [97mConnected to MongoDB[0m
+[95m[2024-05-02T14:38:36.583Z][96m [INFO]: [97mReceived join message from socket s3i9uzw7wxo2S_dvAAAB[0m
+[95m[2024-05-02T14:38:36.588Z][96m [INFO]: [97mUser with nickname joel has been validated.[0m
+[95m[2024-05-02T14:38:36.589Z][93m [WARN]: [97mNo rooms available, creating new one...[0m
+[95m[2024-05-02T14:38:36.589Z][96m [INFO]: [97mRoom b003c3db-f825-409e-b850-8805f0edc073 match starting in 5000 ms.[0m
+[95m[2024-05-02T14:38:36.589Z][96m [INFO]: [97mAssigned player with nickname joel to room b003c3db-f825-409e-b850-8805f0edc073[0m
+[95m[2024-05-02T14:38:43.618Z][96m [INFO]: [97mRoom b003c3db-f825-409e-b850-8805f0edc073 match has started[0m
+[95m[2024-05-02T14:38:49.650Z][96m [INFO]: [97mRoom b003c3db-f825-409e-b850-8805f0edc073 match has ended[0m
+[95m[2024-05-02T14:38:49.651Z][96m [INFO]: [97mDeleting room b003c3db-f825-409e-b850-8805f0edc073[0m
+[95m[2024-05-02T14:39:40.628Z] [96m[INFO]: [97mHTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:39:40.645Z] [96m[INFO]: [97mConnected to MongoDB[0m
+[95m[2024-05-02T14:40:24.760Z] [96m[INFO]: [97mHTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:40:24.778Z] [96m[INFO]: [97mConnected to MongoDB[0m
+[95m[2024-05-02T14:40:50.961Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:40:50.978Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T14:41:40.699Z] [96m[INFO]: undefinedHTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:41:40.716Z] [96m[INFO]: undefinedConnected to MongoDB[0m
+[95m[2024-05-02T14:41:50.066Z] [96m[INFO]: undefinedUnidentified socket with id _LkCIjvzjVm5JC5QAAAB has disconnected[0m
+[95m[2024-05-02T14:41:52.155Z] [96m[INFO]: undefinedReceived join message from socket XnEMdYWNCKZQowdUAAAD[0m
+[95m[2024-05-02T14:41:52.161Z] [96m[INFO]: undefinedUser with nickname joel has been validated.[0m
+[95m[2024-05-02T14:41:52.162Z] [93m[WARN]: undefinedNo rooms available, creating new one...[0m
+[95m[2024-05-02T14:41:52.162Z] [96m[INFO]: undefinedRoom 8b2388cb-cc8b-4024-9a3a-c55cab57cdd6 match starting in 5000 ms.[0m
+[95m[2024-05-02T14:41:52.162Z] [96m[INFO]: undefinedAssigned player with nickname joel to room 8b2388cb-cc8b-4024-9a3a-c55cab57cdd6[0m
+[95m[2024-05-02T14:41:59.173Z] [96m[INFO]: undefinedRoom 8b2388cb-cc8b-4024-9a3a-c55cab57cdd6 match has started[0m
+[95m[2024-05-02T14:42:05.200Z] [96m[INFO]: undefinedRoom 8b2388cb-cc8b-4024-9a3a-c55cab57cdd6 match has ended[0m
+[95m[2024-05-02T14:42:05.200Z] [96m[INFO]: undefinedDeleting room 8b2388cb-cc8b-4024-9a3a-c55cab57cdd6[0m
+[95m[2024-05-02T14:42:24.268Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:42:24.286Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T14:43:16.891Z] [92m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:43:16.915Z] [92m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T14:44:27.304Z] [32m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:44:27.322Z] [32m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T14:44:36.971Z] [32m[INFO]: Received join message from socket -fB1Wpd7GKhm-7WDAAAB[0m
+[95m[2024-05-02T14:44:36.979Z] [32m[INFO]: User with nickname joel has been validated.[0m
+[95m[2024-05-02T14:44:36.980Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T14:44:36.980Z] [32m[INFO]: Room 6bace71c-7ef1-4422-b159-eebcf7e04de0 match starting in 5000 ms.[0m
+[95m[2024-05-02T14:44:36.980Z] [32m[INFO]: Assigned player with nickname joel to room 6bace71c-7ef1-4422-b159-eebcf7e04de0[0m
+[95m[2024-05-02T14:44:44.007Z] [32m[INFO]: Room 6bace71c-7ef1-4422-b159-eebcf7e04de0 match has started[0m
+[95m[2024-05-02T14:44:50.030Z] [32m[INFO]: Room 6bace71c-7ef1-4422-b159-eebcf7e04de0 match has ended[0m
+[95m[2024-05-02T14:44:50.031Z] [32m[INFO]: Deleting room 6bace71c-7ef1-4422-b159-eebcf7e04de0[0m
+[95m[2024-05-02T14:45:03.823Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:45:03.845Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T14:45:12.195Z] [96m[INFO]: Unidentified socket with id t9F_8vobPjYykTk5AAAB has disconnected[0m
+[95m[2024-05-02T14:45:14.251Z] [96m[INFO]: Received join message from socket xfHDWw6GbYprFTQqAAAD[0m
+[95m[2024-05-02T14:45:14.257Z] [96m[INFO]: User with nickname joel has been validated.[0m
+[95m[2024-05-02T14:45:14.257Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T14:45:14.257Z] [96m[INFO]: Room 2267f922-17b2-458f-8a94-a29c3e03f170 match starting in 5000 ms.[0m
+[95m[2024-05-02T14:45:14.257Z] [96m[INFO]: Assigned player with nickname joel to room 2267f922-17b2-458f-8a94-a29c3e03f170[0m
+[95m[2024-05-02T14:45:21.289Z] [96m[INFO]: Room 2267f922-17b2-458f-8a94-a29c3e03f170 match has started[0m
+[95m[2024-05-02T14:45:27.319Z] [96m[INFO]: Room 2267f922-17b2-458f-8a94-a29c3e03f170 match has ended[0m
+[95m[2024-05-02T14:45:27.320Z] [96m[INFO]: Deleting room 2267f922-17b2-458f-8a94-a29c3e03f170[0m
+[95m[2024-05-02T14:45:51.920Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:45:51.942Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T14:45:55.335Z] [96m[INFO]: Received join message from socket iXs5iZTPJ7kKFEvWAAAB[0m
+[95m[2024-05-02T14:45:55.340Z] [96m[INFO]: User with nickname joel has been validated.[0m
+[95m[2024-05-02T14:45:55.340Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T14:45:55.340Z] [96m[INFO]: Room 1a4fa41a-254f-46c2-ae88-d625bc4071d7 match starting in 5000 ms.[0m
+[95m[2024-05-02T14:45:55.341Z] [96m[INFO]: Assigned player with nickname joel to room 1a4fa41a-254f-46c2-ae88-d625bc4071d7[0m
+[95m[2024-05-02T14:46:02.371Z] [96m[INFO]: Room 1a4fa41a-254f-46c2-ae88-d625bc4071d7 match has started[0m
+[95m[2024-05-02T14:46:08.394Z] [96m[INFO]: Room 1a4fa41a-254f-46c2-ae88-d625bc4071d7 match has ended[0m
+[95m[2024-05-02T14:46:20.501Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-02T14:46:20.517Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-02T14:46:27.857Z] [96m[INFO]: Unidentified socket with id wsFj-wd4DQ4dHG8yAAAB has disconnected[0m
+[95m[2024-05-02T14:46:31.925Z] [96m[INFO]: Received join message from socket BI7H-9wIfcYakXQjAAAD[0m
+[95m[2024-05-02T14:46:31.931Z] [96m[INFO]: User with nickname joel has been validated.[0m
+[95m[2024-05-02T14:46:31.931Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-02T14:46:31.931Z] [96m[INFO]: Room c1f01ac8-88ef-4aa4-87a5-d0a04be718bd match starting in 5000 ms.[0m
+[95m[2024-05-02T14:46:31.932Z] [96m[INFO]: Assigned player with nickname joel to room c1f01ac8-88ef-4aa4-87a5-d0a04be718bd[0m
+[95m[2024-05-02T14:46:38.959Z] [96m[INFO]: Room c1f01ac8-88ef-4aa4-87a5-d0a04be718bd match has started[0m
+[95m[2024-05-02T14:46:44.977Z] [96m[INFO]: Room c1f01ac8-88ef-4aa4-87a5-d0a04be718bd match has ended[0m
+[95m[2024-05-02T14:46:44.978Z] [93m[WARN]: Deleting room c1f01ac8-88ef-4aa4-87a5-d0a04be718bd[0m
