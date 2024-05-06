@@ -49,18 +49,26 @@ const handleJoin = async (socket, data, rooms, logger, Room, generateUUID) => {
     return roomId;
 };
 
-const handleWord = async (socket, data, wordUtils) => {
+const handleWord = async (socket, data, wordUtils, rooms, roomId, user) => {
     const {word} = JSON.parse(data);
-
     let score = 0;
-    const exists = await wordUtils.wordExists(word, 'catalan');
-    if (exists) {
-        score = await wordUtils.evaluateWord(word, 'catalan');
-    }
 
-    socket.emit('score', JSON.stringify({
-        score: score
-    }));
+    if (rooms !== null && rooms.has(roomId)) {
+        const room = rooms.get(roomId);
+        if (room.match.matchStarted) {
+            const exists = await wordUtils.wordExists(word, 'catalan');
+            const isFound = await room.match.isWordFound(word);
+            if (exists && !isFound) {
+                score = await wordUtils.evaluateWord(word, 'catalan', room.match.letters);
+                await room.match.updateMatchWords(word, score, user);
+            }
+            socket.emit('score', JSON.stringify({
+                score: score
+            }));
+        } else {
+            logger.warn(`Received word message but the assigned room match has not started.`)
+        }
+    }
 };
 
 const handleDisconnect = async (socket, user, roomId, rooms, logger) => {

@@ -9,3 +9,20 @@
 [95m[2024-05-02T19:12:03.791Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
 [95m[2024-05-02T19:12:49.162Z] [91m[ERROR]: Something went wrong while adding user with nickname alex to the room[0m
 [95m[2024-05-02T19:14:36.374Z] [91m[ERROR]: Something went wrong while adding user with nickname alex to the room[0m
+[95m[2024-05-06T13:29:10.889Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:29:20.847Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:29:35.322Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:31:24.127Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:31:33.053Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:31:44.229Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:31:58.916Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:35:10.437Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:37:37.646Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:37:56.198Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T14:37:02.900Z] [91m[ERROR]: Error while updating math 3e6362c7-9ac3-496d-a03e-0aaca664183d words. Iterator value { is not an entry object[0m
+[95m[2024-05-06T14:37:05.768Z] [91m[ERROR]: Error while updating math 3e6362c7-9ac3-496d-a03e-0aaca664183d words. Iterator value { is not an entry object[0m
+[95m[2024-05-06T14:39:00.828Z] [91m[ERROR]: Error while updating math df5eb914-7305-481a-811b-1b09bc8b21b8 words. Iterator value { is not an entry object[0m
+[95m[2024-05-06T15:01:02.098Z] [91m[ERROR]: Error while updating match 374ba678-0676-428d-8321-1c51889efd55 words. Cannot read properties of undefined (reading 'push')[0m
+[95m[2024-05-06T15:04:46.441Z] [91m[ERROR]: Error while checking if AU is already found Cannot read properties of undefined (reading 'type')[0m
+[95m[2024-05-06T15:04:46.467Z] [91m[ERROR]: Error while updating match d8b4580f-94ee-45db-9ab7-2b89d37c14a1 words. Cannot read properties of undefined (reading 'push')[0m
+[95m[2024-05-06T15:05:52.672Z] [91m[ERROR]: Error while updating match 6eccbd53-24e4-4c70-9467-28f8df866c74 words. Cannot read properties of undefined (reading 'type')[0m

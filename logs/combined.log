@@ -316,3 +316,674 @@
 [95m[2024-05-02T19:21:43.537Z] [96m[INFO]: Received join message from socket MBNG3TES0pi86WF0AAAB[0m
 [95m[2024-05-02T19:21:43.546Z] [93m[WARN]: Unable to authenticate socket MBNG3TES0pi86WF0AAAB. Forcing disconnection.[0m
 [95m[2024-05-02T19:22:04.464Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:28:11.133Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:28:14.271Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:29:10.875Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:29:10.889Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:29:18.954Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:29:20.831Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:29:20.847Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:29:21.744Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:29:35.308Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:29:35.322Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:31:18.960Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:31:24.113Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:31:24.127Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:31:31.084Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:31:33.039Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:31:33.053Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:31:34.504Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:31:44.211Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:31:44.229Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:31:44.943Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:31:58.901Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:31:58.916Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:35:10.422Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:35:10.437Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:35:52.945Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:37:37.632Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:37:37.646Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:37:54.035Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:37:56.183Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:37:56.198Z] [91m[ERROR]: Unable to connect to MongoDB Authentication failed.[0m
+[95m[2024-05-06T13:37:57.764Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:41:17.153Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:41:17.169Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T13:41:41.254Z] [96m[INFO]: Received join message from socket NuvvOaBZ5b9mB7ciAAAB[0m
+[95m[2024-05-06T13:41:41.266Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T13:41:41.266Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T13:41:41.267Z] [96m[INFO]: Room ed74a3d5-5478-4a62-9f52-a81ce63d4d65 match starting in 5000 ms.[0m
+[95m[2024-05-06T13:41:41.267Z] [96m[INFO]: Assigned player with nickname alex to room ed74a3d5-5478-4a62-9f52-a81ce63d4d65[0m
+[95m[2024-05-06T13:41:48.297Z] [96m[INFO]: Room ed74a3d5-5478-4a62-9f52-a81ce63d4d65 match has started[0m
+[95m[2024-05-06T13:42:58.767Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:42:58.785Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T13:43:02.101Z] [96m[INFO]: Received join message from socket m4kEt9NT4sMcQ-AkAAAB[0m
+[95m[2024-05-06T13:43:02.110Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T13:43:02.110Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T13:43:02.111Z] [96m[INFO]: Room 48ed4782-a259-4abb-a0f3-cfee40c13a00 match starting in 5000 ms.[0m
+[95m[2024-05-06T13:43:02.111Z] [96m[INFO]: Assigned player with nickname alex to room 48ed4782-a259-4abb-a0f3-cfee40c13a00[0m
+[95m[2024-05-06T13:43:09.141Z] [96m[INFO]: Room 48ed4782-a259-4abb-a0f3-cfee40c13a00 match has started[0m
+[95m[2024-05-06T13:43:15.162Z] [96m[INFO]: Room 48ed4782-a259-4abb-a0f3-cfee40c13a00 match has ended[0m
+[95m[2024-05-06T13:43:15.165Z] [93m[WARN]: Deleting room 48ed4782-a259-4abb-a0f3-cfee40c13a00[0m
+[95m[2024-05-06T13:46:00.879Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:46:00.898Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T13:46:06.698Z] [96m[INFO]: Received join message from socket oc5fCi30qUq4KvngAAAB[0m
+[95m[2024-05-06T13:46:06.703Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T13:46:06.703Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T13:46:06.703Z] [96m[INFO]: Room 81b417e4-18c3-42ff-a843-b80545e52eb8 match starting in 5000 ms.[0m
+[95m[2024-05-06T13:46:06.703Z] [96m[INFO]: Assigned player with nickname alex to room 81b417e4-18c3-42ff-a843-b80545e52eb8[0m
+[95m[2024-05-06T13:46:11.576Z] [93m[WARN]: Received word message but the assigned room match has not started.[0m
+[95m[2024-05-06T13:46:13.731Z] [96m[INFO]: Room 81b417e4-18c3-42ff-a843-b80545e52eb8 match has started[0m
+[95m[2024-05-06T13:47:04.954Z] [96m[INFO]: Room 81b417e4-18c3-42ff-a843-b80545e52eb8 match has ended[0m
+[95m[2024-05-06T13:47:04.955Z] [93m[WARN]: Deleting room 81b417e4-18c3-42ff-a843-b80545e52eb8[0m
+[95m[2024-05-06T13:48:40.309Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:48:40.327Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T13:48:43.262Z] [96m[INFO]: Received join message from socket zY3Qba09N5gHNVXiAAAB[0m
+[95m[2024-05-06T13:48:43.274Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T13:48:43.275Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T13:48:43.275Z] [96m[INFO]: Room 924a17df-7718-46ac-bc30-fc1d39fecb94 match starting in 5000 ms.[0m
+[95m[2024-05-06T13:48:43.276Z] [96m[INFO]: Assigned player with nickname alex to room 924a17df-7718-46ac-bc30-fc1d39fecb94[0m
+[95m[2024-05-06T13:48:50.300Z] [96m[INFO]: Room 924a17df-7718-46ac-bc30-fc1d39fecb94 match has started[0m
+[95m[2024-05-06T13:49:41.489Z] [96m[INFO]: Room 924a17df-7718-46ac-bc30-fc1d39fecb94 match has ended[0m
+[95m[2024-05-06T13:49:41.490Z] [93m[WARN]: Deleting room 924a17df-7718-46ac-bc30-fc1d39fecb94[0m
+[95m[2024-05-06T13:53:21.918Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T13:53:23.997Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T13:53:24.014Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T13:53:26.352Z] [96m[INFO]: Received join message from socket u4idcmwcglgoR_gEAAAB[0m
+[95m[2024-05-06T13:53:26.359Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T13:53:26.359Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T13:53:26.360Z] [96m[INFO]: Room 61665a58-dcbf-4b63-8973-4059c5ede218 match starting in 5000 ms.[0m
+[95m[2024-05-06T13:53:26.360Z] [96m[INFO]: Assigned player with nickname alex to room 61665a58-dcbf-4b63-8973-4059c5ede218[0m
+[95m[2024-05-06T13:53:33.390Z] [96m[INFO]: Room 61665a58-dcbf-4b63-8973-4059c5ede218 match has started[0m
+[95m[2024-05-06T13:54:24.595Z] [96m[INFO]: Room 61665a58-dcbf-4b63-8973-4059c5ede218 match has ended[0m
+[95m[2024-05-06T13:54:24.596Z] [93m[WARN]: Deleting room 61665a58-dcbf-4b63-8973-4059c5ede218[0m
+[95m[2024-05-06T14:02:56.013Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:02:59.071Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:02:59.088Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:03:00.700Z] [96m[INFO]: Received join message from socket 7yBPnYf3ChiM2yfgAAAB[0m
+[95m[2024-05-06T14:03:00.706Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:03:00.706Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:03:00.706Z] [96m[INFO]: Room 31681e68-fbfd-4946-ac63-ccee6891c67b match starting in 5000 ms.[0m
+[95m[2024-05-06T14:03:00.707Z] [96m[INFO]: Assigned player with nickname alex to room 31681e68-fbfd-4946-ac63-ccee6891c67b[0m
+[95m[2024-05-06T14:03:07.740Z] [96m[INFO]: Room 31681e68-fbfd-4946-ac63-ccee6891c67b match has started[0m
+[95m[2024-05-06T14:03:58.945Z] [96m[INFO]: Room 31681e68-fbfd-4946-ac63-ccee6891c67b match has ended[0m
+[95m[2024-05-06T14:03:58.946Z] [93m[WARN]: Deleting room 31681e68-fbfd-4946-ac63-ccee6891c67b[0m
+[95m[2024-05-06T14:08:13.302Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:08:15.057Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:08:15.072Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:08:17.648Z] [96m[INFO]: Received join message from socket O4wJLHzERabThqFtAAAB[0m
+[95m[2024-05-06T14:08:17.654Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:08:17.654Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:08:17.654Z] [96m[INFO]: Room 9cf73cbc-e724-4d7e-a751-0f33a79ddd25 match starting in 5000 ms.[0m
+[95m[2024-05-06T14:08:17.655Z] [96m[INFO]: Assigned player with nickname alex to room 9cf73cbc-e724-4d7e-a751-0f33a79ddd25[0m
+[95m[2024-05-06T14:08:24.692Z] [96m[INFO]: Room 9cf73cbc-e724-4d7e-a751-0f33a79ddd25 match has started[0m
+[95m[2024-05-06T14:08:28.528Z] [96m[INFO]: Removed user with nickname alex from room 9cf73cbc-e724-4d7e-a751-0f33a79ddd25[0m
+[95m[2024-05-06T14:08:28.528Z] [96m[INFO]: User with nickname alex has disconnected.[0m
+[95m[2024-05-06T14:08:32.557Z] [96m[INFO]: Received join message from socket pR0xZmIeiYezWZvEAAAD[0m
+[95m[2024-05-06T14:08:32.559Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:08:32.559Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:08:32.560Z] [96m[INFO]: Room a1f32a36-3120-4821-9b84-14bef2f82a2c match starting in 5000 ms.[0m
+[95m[2024-05-06T14:08:32.560Z] [96m[INFO]: Assigned player with nickname alex to room a1f32a36-3120-4821-9b84-14bef2f82a2c[0m
+[95m[2024-05-06T14:08:39.590Z] [96m[INFO]: Room a1f32a36-3120-4821-9b84-14bef2f82a2c match has started[0m
+[95m[2024-05-06T14:08:46.383Z] [96m[INFO]: the word AIGUA exists[0m
+[95m[2024-05-06T14:08:46.384Z] [96m[INFO]: the lower cased word is aigua[0m
+[95m[2024-05-06T14:08:46.384Z] [96m[INFO]: the letter array is a,e,g,j,p,a,w,i,e,l[0m
+[95m[2024-05-06T14:08:46.384Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:08:46.384Z] [96m[INFO]: evaluating i[0m
+[95m[2024-05-06T14:08:46.384Z] [96m[INFO]: evaluating g[0m
+[95m[2024-05-06T14:08:46.384Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:09:08.902Z] [96m[INFO]: the word PA exists[0m
+[95m[2024-05-06T14:09:08.902Z] [96m[INFO]: the lower cased word is pa[0m
+[95m[2024-05-06T14:09:08.902Z] [96m[INFO]: the letter array is a,e,g,j,p,a,w,i,e,l[0m
+[95m[2024-05-06T14:09:08.903Z] [96m[INFO]: evaluating p[0m
+[95m[2024-05-06T14:09:08.903Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:09:08.903Z] [96m[INFO]: all letters are valid for word PA[0m
+[95m[2024-05-06T14:09:15.733Z] [96m[INFO]: Room 9cf73cbc-e724-4d7e-a751-0f33a79ddd25 match has ended[0m
+[95m[2024-05-06T14:09:15.733Z] [93m[WARN]: Deleting room 9cf73cbc-e724-4d7e-a751-0f33a79ddd25[0m
+[95m[2024-05-06T14:09:30.769Z] [96m[INFO]: Room a1f32a36-3120-4821-9b84-14bef2f82a2c match has ended[0m
+[95m[2024-05-06T14:09:30.770Z] [93m[WARN]: Deleting room a1f32a36-3120-4821-9b84-14bef2f82a2c[0m
+[95m[2024-05-06T14:15:38.823Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:15:40.957Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:15:40.978Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:15:42.802Z] [96m[INFO]: Received join message from socket U4vmcCi4eA6Tx6N_AAAB[0m
+[95m[2024-05-06T14:15:42.817Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:15:42.818Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:15:42.820Z] [96m[INFO]: Room 0f1c3376-f9ff-4c5b-991e-3dd195738762 match starting in 5000 ms.[0m
+[95m[2024-05-06T14:15:42.821Z] [96m[INFO]: Assigned player with nickname alex to room 0f1c3376-f9ff-4c5b-991e-3dd195738762[0m
+[95m[2024-05-06T14:18:33.032Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:18:33.050Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:18:39.570Z] [96m[INFO]: Received join message from socket x1fyvFmEZYhgjJurAAAB[0m
+[95m[2024-05-06T14:18:39.575Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:18:39.575Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:18:39.576Z] [96m[INFO]: Room b046552b-24de-4145-920c-fb25f8f33248 match starting in 5000 ms.[0m
+[95m[2024-05-06T14:18:39.576Z] [96m[INFO]: Assigned player with nickname alex to room b046552b-24de-4145-920c-fb25f8f33248[0m
+[95m[2024-05-06T14:23:23.663Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:23:23.680Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:23:26.963Z] [96m[INFO]: Received join message from socket 2A1PYlZhMdZZKrJ-AAAB[0m
+[95m[2024-05-06T14:23:26.971Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:23:26.971Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:23:26.971Z] [96m[INFO]: Room ebc09a99-d462-4060-9fcd-59f690b02f07 match starting in 5000 ms.[0m
+[95m[2024-05-06T14:23:26.971Z] [96m[INFO]: Assigned player with nickname alex to room ebc09a99-d462-4060-9fcd-59f690b02f07[0m
+[95m[2024-05-06T14:23:33.997Z] [96m[INFO]: Room ebc09a99-d462-4060-9fcd-59f690b02f07 match has started[0m
+[95m[2024-05-06T14:24:07.093Z] [96m[INFO]: Removed user with nickname alex from room ebc09a99-d462-4060-9fcd-59f690b02f07[0m
+[95m[2024-05-06T14:24:07.093Z] [96m[INFO]: User with nickname alex has disconnected.[0m
+[95m[2024-05-06T14:24:14.971Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:26:35.401Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:26:35.417Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:26:37.672Z] [96m[INFO]: Received join message from socket ztB9rzGtE9rCwg8uAAAB[0m
+[95m[2024-05-06T14:26:37.678Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:26:37.678Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:26:37.678Z] [96m[INFO]: Room 18c36554-e12a-4219-a56a-7f2d95908b6c match starting in 5000 ms.[0m
+[95m[2024-05-06T14:26:37.678Z] [96m[INFO]: Assigned player with nickname alex to room 18c36554-e12a-4219-a56a-7f2d95908b6c[0m
+[95m[2024-05-06T14:26:44.711Z] [96m[INFO]: Room 18c36554-e12a-4219-a56a-7f2d95908b6c match has started[0m
+[95m[2024-05-06T14:27:02.474Z] [96m[INFO]: the word OS exists[0m
+[95m[2024-05-06T14:27:02.474Z] [96m[INFO]: the lower cased word is os[0m
+[95m[2024-05-06T14:27:02.475Z] [96m[INFO]: the letter array is e,i,x,b,n,z,s,o,a,u[0m
+[95m[2024-05-06T14:27:02.475Z] [96m[INFO]: evaluating o[0m
+[95m[2024-05-06T14:27:02.475Z] [96m[INFO]: evaluating s[0m
+[95m[2024-05-06T14:27:02.475Z] [96m[INFO]: all letters are valid for word OS[0m
+[95m[2024-05-06T14:27:08.006Z] [96m[INFO]: the word SO exists[0m
+[95m[2024-05-06T14:27:08.006Z] [96m[INFO]: the lower cased word is so[0m
+[95m[2024-05-06T14:27:08.006Z] [96m[INFO]: the letter array is e,i,x,b,n,z,s,o,a,u[0m
+[95m[2024-05-06T14:27:08.006Z] [96m[INFO]: evaluating s[0m
+[95m[2024-05-06T14:27:08.006Z] [96m[INFO]: evaluating o[0m
+[95m[2024-05-06T14:27:08.006Z] [96m[INFO]: all letters are valid for word SO[0m
+[95m[2024-05-06T14:27:27.285Z] [96m[INFO]: the word BOU exists[0m
+[95m[2024-05-06T14:27:27.285Z] [96m[INFO]: the lower cased word is bou[0m
+[95m[2024-05-06T14:27:27.286Z] [96m[INFO]: the letter array is e,i,x,b,n,z,s,o,a,u[0m
+[95m[2024-05-06T14:27:27.286Z] [96m[INFO]: evaluating b[0m
+[95m[2024-05-06T14:27:27.286Z] [96m[INFO]: evaluating o[0m
+[95m[2024-05-06T14:27:27.286Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:27:27.286Z] [96m[INFO]: all letters are valid for word BOU[0m
+[95m[2024-05-06T14:27:29.096Z] [96m[INFO]: the word BO exists[0m
+[95m[2024-05-06T14:27:29.096Z] [96m[INFO]: the lower cased word is bo[0m
+[95m[2024-05-06T14:27:29.096Z] [96m[INFO]: the letter array is e,i,x,b,n,z,s,o,a,u[0m
+[95m[2024-05-06T14:27:29.096Z] [96m[INFO]: evaluating b[0m
+[95m[2024-05-06T14:27:29.096Z] [96m[INFO]: evaluating o[0m
+[95m[2024-05-06T14:27:29.096Z] [96m[INFO]: all letters are valid for word BO[0m
+[95m[2024-05-06T14:27:33.714Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T14:27:33.714Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T14:27:33.714Z] [96m[INFO]: the letter array is e,i,x,b,n,z,s,o,a,u[0m
+[95m[2024-05-06T14:27:33.714Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:27:33.714Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:27:33.714Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T14:27:35.921Z] [96m[INFO]: Room 18c36554-e12a-4219-a56a-7f2d95908b6c match has ended[0m
+[95m[2024-05-06T14:27:35.922Z] [93m[WARN]: Deleting room 18c36554-e12a-4219-a56a-7f2d95908b6c[0m
+[95m[2024-05-06T14:35:46.842Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:35:51.894Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:35:51.911Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:35:58.890Z] [96m[INFO]: Received join message from socket _34c6KUMz-oMJhrsAAAB[0m
+[95m[2024-05-06T14:35:58.895Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:35:58.896Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:35:58.896Z] [96m[INFO]: Room ea42f117-39f2-443a-8ce0-06e5d18d6d97 match starting in 5000 ms.[0m
+[95m[2024-05-06T14:35:58.896Z] [96m[INFO]: Assigned player with nickname alex to room ea42f117-39f2-443a-8ce0-06e5d18d6d97[0m
+[95m[2024-05-06T14:36:05.929Z] [96m[INFO]: Room ea42f117-39f2-443a-8ce0-06e5d18d6d97 match has started[0m
+[95m[2024-05-06T14:36:46.854Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:36:46.870Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:36:51.262Z] [96m[INFO]: Received join message from socket 2SvLi9RSwOXHKIoJAAAB[0m
+[95m[2024-05-06T14:36:51.267Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:36:51.268Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:36:51.268Z] [96m[INFO]: Room 3e6362c7-9ac3-496d-a03e-0aaca664183d match starting in 5000 ms.[0m
+[95m[2024-05-06T14:36:51.268Z] [96m[INFO]: Assigned player with nickname alex to room 3e6362c7-9ac3-496d-a03e-0aaca664183d[0m
+[95m[2024-05-06T14:36:58.302Z] [96m[INFO]: Room 3e6362c7-9ac3-496d-a03e-0aaca664183d match has started[0m
+[95m[2024-05-06T14:37:02.876Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T14:37:02.876Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T14:37:02.877Z] [96m[INFO]: the letter array is a,e,x,d,o,i,t,n,g,u[0m
+[95m[2024-05-06T14:37:02.877Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:37:02.877Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:37:02.877Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T14:37:02.900Z] [91m[ERROR]: Error while updating math 3e6362c7-9ac3-496d-a03e-0aaca664183d words. Iterator value { is not an entry object[0m
+[95m[2024-05-06T14:37:05.746Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T14:37:05.746Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T14:37:05.747Z] [96m[INFO]: the letter array is a,e,x,d,o,i,t,n,g,u[0m
+[95m[2024-05-06T14:37:05.747Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:37:05.747Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:37:05.747Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T14:37:05.768Z] [91m[ERROR]: Error while updating math 3e6362c7-9ac3-496d-a03e-0aaca664183d words. Iterator value { is not an entry object[0m
+[95m[2024-05-06T14:37:49.442Z] [96m[INFO]: Room 3e6362c7-9ac3-496d-a03e-0aaca664183d match has ended[0m
+[95m[2024-05-06T14:37:49.443Z] [93m[WARN]: Deleting room 3e6362c7-9ac3-496d-a03e-0aaca664183d[0m
+[95m[2024-05-06T14:38:40.583Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:38:42.250Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:38:42.268Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:38:43.658Z] [96m[INFO]: Received join message from socket 51qiZnl_JDVe3KHZAAAB[0m
+[95m[2024-05-06T14:38:43.664Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:38:43.665Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:38:43.665Z] [96m[INFO]: Room df5eb914-7305-481a-811b-1b09bc8b21b8 match starting in 5000 ms.[0m
+[95m[2024-05-06T14:38:43.665Z] [96m[INFO]: Assigned player with nickname alex to room df5eb914-7305-481a-811b-1b09bc8b21b8[0m
+[95m[2024-05-06T14:38:50.690Z] [96m[INFO]: Room df5eb914-7305-481a-811b-1b09bc8b21b8 match has started[0m
+[95m[2024-05-06T14:39:00.709Z] [96m[INFO]: the word PEU exists[0m
+[95m[2024-05-06T14:39:00.710Z] [96m[INFO]: the lower cased word is peu[0m
+[95m[2024-05-06T14:39:00.710Z] [96m[INFO]: the letter array is i,e,p,k,u,o,l,t,c,r[0m
+[95m[2024-05-06T14:39:00.710Z] [96m[INFO]: evaluating p[0m
+[95m[2024-05-06T14:39:00.710Z] [96m[INFO]: evaluating e[0m
+[95m[2024-05-06T14:39:00.710Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:39:00.710Z] [96m[INFO]: all letters are valid for word PEU[0m
+[95m[2024-05-06T14:39:00.828Z] [91m[ERROR]: Error while updating math df5eb914-7305-481a-811b-1b09bc8b21b8 words. Iterator value { is not an entry object[0m
+[95m[2024-05-06T14:39:41.893Z] [96m[INFO]: Room df5eb914-7305-481a-811b-1b09bc8b21b8 match has ended[0m
+[95m[2024-05-06T14:39:41.894Z] [93m[WARN]: Deleting room df5eb914-7305-481a-811b-1b09bc8b21b8[0m
+[95m[2024-05-06T14:41:02.274Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:41:04.042Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:41:04.058Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:41:05.325Z] [96m[INFO]: Received join message from socket 06hJAVLoLaPfTgHFAAAB[0m
+[95m[2024-05-06T14:41:05.330Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:41:05.330Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:41:05.331Z] [96m[INFO]: Room 761578c4-c5d0-4c7e-8f0b-17ede4e0383d match starting in 5000 ms.[0m
+[95m[2024-05-06T14:41:05.331Z] [96m[INFO]: Assigned player with nickname alex to room 761578c4-c5d0-4c7e-8f0b-17ede4e0383d[0m
+[95m[2024-05-06T14:41:12.356Z] [96m[INFO]: Room 761578c4-c5d0-4c7e-8f0b-17ede4e0383d match has started[0m
+[95m[2024-05-06T14:41:23.732Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T14:41:23.733Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T14:41:23.733Z] [96m[INFO]: the letter array is i,u,f,a,o,e,h,w,m,[0m
+[95m[2024-05-06T14:41:23.733Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:41:23.733Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:41:23.733Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T14:41:29.188Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T14:41:29.189Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T14:41:29.189Z] [96m[INFO]: the letter array is i,u,f,a,o,e,h,w,m,[0m
+[95m[2024-05-06T14:41:29.189Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:41:29.189Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:41:29.189Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T14:42:03.550Z] [96m[INFO]: Room 761578c4-c5d0-4c7e-8f0b-17ede4e0383d match has ended[0m
+[95m[2024-05-06T14:42:03.551Z] [93m[WARN]: Deleting room 761578c4-c5d0-4c7e-8f0b-17ede4e0383d[0m
+[95m[2024-05-06T14:44:47.856Z] [96m[INFO]: User with nickname alex has disconnected.[0m
+[95m[2024-05-06T14:44:51.062Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:44:53.737Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:44:53.764Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:44:55.958Z] [96m[INFO]: Received join message from socket qz-eMtED8buYCGiyAAAB[0m
+[95m[2024-05-06T14:44:55.964Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:44:55.964Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:44:55.964Z] [96m[INFO]: Room 6947b95c-873b-435a-bbe6-0f3996b4b0fb match starting in 5000 ms.[0m
+[95m[2024-05-06T14:44:55.964Z] [96m[INFO]: Assigned player with nickname alex to room 6947b95c-873b-435a-bbe6-0f3996b4b0fb[0m
+[95m[2024-05-06T14:45:02.992Z] [96m[INFO]: Room 6947b95c-873b-435a-bbe6-0f3996b4b0fb match has started[0m
+[95m[2024-05-06T14:45:07.381Z] [96m[INFO]: the word AU is already found: false[0m
+[95m[2024-05-06T14:45:07.381Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T14:45:07.381Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T14:45:07.381Z] [96m[INFO]: the letter array is o,e,u,a,x,z,i,s,d,[0m
+[95m[2024-05-06T14:45:07.381Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:45:07.382Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:45:07.382Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T14:45:09.086Z] [96m[INFO]: the word AU is already found: false[0m
+[95m[2024-05-06T14:45:09.086Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T14:45:09.086Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T14:45:09.086Z] [96m[INFO]: the letter array is o,e,u,a,x,z,i,s,d,[0m
+[95m[2024-05-06T14:45:09.086Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:45:09.087Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:45:09.087Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T14:45:54.189Z] [96m[INFO]: Room 6947b95c-873b-435a-bbe6-0f3996b4b0fb match has ended[0m
+[95m[2024-05-06T14:45:54.189Z] [93m[WARN]: Deleting room 6947b95c-873b-435a-bbe6-0f3996b4b0fb[0m
+[95m[2024-05-06T14:46:29.536Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:46:31.299Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:46:31.316Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:46:32.731Z] [96m[INFO]: Received join message from socket bBK11X0OKKizdqYnAAAB[0m
+[95m[2024-05-06T14:46:32.738Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:46:32.738Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:46:32.739Z] [96m[INFO]: Room 5811db58-7674-4b0b-bcf7-062333beae92 match starting in 5000 ms.[0m
+[95m[2024-05-06T14:46:32.739Z] [96m[INFO]: Assigned player with nickname alex to room 5811db58-7674-4b0b-bcf7-062333beae92[0m
+[95m[2024-05-06T14:46:35.574Z] [93m[WARN]: Received word message but the assigned room match has not started.[0m
+[95m[2024-05-06T14:46:39.765Z] [96m[INFO]: Room 5811db58-7674-4b0b-bcf7-062333beae92 match has started[0m
+[95m[2024-05-06T14:46:44.999Z] [96m[INFO]: [0m
+[95m[2024-05-06T14:46:44.999Z] [96m[INFO]: the word PEU is already found: false[0m
+[95m[2024-05-06T14:46:44.999Z] [96m[INFO]: the word PEU exists[0m
+[95m[2024-05-06T14:46:45.000Z] [96m[INFO]: the lower cased word is peu[0m
+[95m[2024-05-06T14:46:45.000Z] [96m[INFO]: the letter array is e,u,p,a,y,x,i,o,,d[0m
+[95m[2024-05-06T14:46:45.000Z] [96m[INFO]: evaluating p[0m
+[95m[2024-05-06T14:46:45.000Z] [96m[INFO]: evaluating e[0m
+[95m[2024-05-06T14:46:45.000Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:46:45.000Z] [96m[INFO]: all letters are valid for word PEU[0m
+[95m[2024-05-06T14:46:49.084Z] [96m[INFO]: [0m
+[95m[2024-05-06T14:46:49.084Z] [96m[INFO]: the word PEU is already found: false[0m
+[95m[2024-05-06T14:46:49.084Z] [96m[INFO]: the word PEU exists[0m
+[95m[2024-05-06T14:46:49.084Z] [96m[INFO]: the lower cased word is peu[0m
+[95m[2024-05-06T14:46:49.084Z] [96m[INFO]: the letter array is e,u,p,a,y,x,i,o,,d[0m
+[95m[2024-05-06T14:46:49.084Z] [96m[INFO]: evaluating p[0m
+[95m[2024-05-06T14:46:49.084Z] [96m[INFO]: evaluating e[0m
+[95m[2024-05-06T14:46:49.084Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:46:49.084Z] [96m[INFO]: all letters are valid for word PEU[0m
+[95m[2024-05-06T14:47:30.962Z] [96m[INFO]: Room 5811db58-7674-4b0b-bcf7-062333beae92 match has ended[0m
+[95m[2024-05-06T14:47:30.963Z] [93m[WARN]: Deleting room 5811db58-7674-4b0b-bcf7-062333beae92[0m
+[95m[2024-05-06T14:47:53.064Z] [96m[INFO]: Received join message from socket bBK11X0OKKizdqYnAAAB[0m
+[95m[2024-05-06T14:47:53.066Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:47:53.066Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:47:53.067Z] [96m[INFO]: Room ac16f436-a1f5-4de6-9808-eb67dc6e9016 match starting in 5000 ms.[0m
+[95m[2024-05-06T14:47:53.067Z] [96m[INFO]: Assigned player with nickname alex to room ac16f436-a1f5-4de6-9808-eb67dc6e9016[0m
+[95m[2024-05-06T14:48:00.077Z] [96m[INFO]: Room ac16f436-a1f5-4de6-9808-eb67dc6e9016 match has started[0m
+[95m[2024-05-06T14:48:03.982Z] [96m[INFO]: [0m
+[95m[2024-05-06T14:48:03.982Z] [96m[INFO]: the word AU is already found: false[0m
+[95m[2024-05-06T14:48:03.982Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T14:48:03.982Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T14:48:03.982Z] [96m[INFO]: the letter array is u,a,o,i,e,w,,g,j,n[0m
+[95m[2024-05-06T14:48:03.982Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:48:03.982Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:48:03.982Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T14:48:17.193Z] [96m[INFO]: [0m
+[95m[2024-05-06T14:48:17.193Z] [96m[INFO]: the word OU is already found: false[0m
+[95m[2024-05-06T14:48:17.193Z] [96m[INFO]: the word OU exists[0m
+[95m[2024-05-06T14:48:17.193Z] [96m[INFO]: the lower cased word is ou[0m
+[95m[2024-05-06T14:48:17.193Z] [96m[INFO]: the letter array is u,a,o,i,e,w,,g,j,n[0m
+[95m[2024-05-06T14:48:17.193Z] [96m[INFO]: evaluating o[0m
+[95m[2024-05-06T14:48:17.193Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:48:17.193Z] [96m[INFO]: all letters are valid for word OU[0m
+[95m[2024-05-06T14:48:30.314Z] [96m[INFO]: [0m
+[95m[2024-05-06T14:48:30.314Z] [96m[INFO]: the word NO is already found: false[0m
+[95m[2024-05-06T14:48:30.314Z] [96m[INFO]: the word NO exists[0m
+[95m[2024-05-06T14:48:30.314Z] [96m[INFO]: the lower cased word is no[0m
+[95m[2024-05-06T14:48:30.314Z] [96m[INFO]: the letter array is u,a,o,i,e,w,,g,j,n[0m
+[95m[2024-05-06T14:48:30.314Z] [96m[INFO]: evaluating n[0m
+[95m[2024-05-06T14:48:30.314Z] [96m[INFO]: evaluating o[0m
+[95m[2024-05-06T14:48:30.314Z] [96m[INFO]: all letters are valid for word NO[0m
+[95m[2024-05-06T14:48:43.702Z] [96m[INFO]: [0m
+[95m[2024-05-06T14:48:43.702Z] [96m[INFO]: the word NAU is already found: false[0m
+[95m[2024-05-06T14:48:43.702Z] [96m[INFO]: the word NAU exists[0m
+[95m[2024-05-06T14:48:43.702Z] [96m[INFO]: the lower cased word is nau[0m
+[95m[2024-05-06T14:48:43.702Z] [96m[INFO]: the letter array is u,a,o,i,e,w,,g,j,n[0m
+[95m[2024-05-06T14:48:43.703Z] [96m[INFO]: evaluating n[0m
+[95m[2024-05-06T14:48:43.703Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:48:43.703Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:48:43.703Z] [96m[INFO]: all letters are valid for word NAU[0m
+[95m[2024-05-06T14:48:51.126Z] [96m[INFO]: Room ac16f436-a1f5-4de6-9808-eb67dc6e9016 match has ended[0m
+[95m[2024-05-06T14:48:51.127Z] [93m[WARN]: Deleting room ac16f436-a1f5-4de6-9808-eb67dc6e9016[0m
+[95m[2024-05-06T14:55:49.365Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T14:55:50.976Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T14:55:50.993Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T14:55:53.367Z] [96m[INFO]: Received join message from socket Wn2jd5Ch8GaH_4GrAAAB[0m
+[95m[2024-05-06T14:55:53.373Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T14:55:53.374Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T14:55:53.374Z] [96m[INFO]: Room e01af363-5165-421c-8e6a-f0f2d7054387 match starting in 5000 ms.[0m
+[95m[2024-05-06T14:55:53.374Z] [96m[INFO]: Assigned player with nickname alex to room e01af363-5165-421c-8e6a-f0f2d7054387[0m
+[95m[2024-05-06T14:55:54.999Z] [93m[WARN]: Received word message but the assigned room match has not started.[0m
+[95m[2024-05-06T14:56:00.401Z] [96m[INFO]: Room e01af363-5165-421c-8e6a-f0f2d7054387 match has started[0m
+[95m[2024-05-06T14:56:19.830Z] [96m[INFO]: [0m
+[95m[2024-05-06T14:56:19.830Z] [96m[INFO]: the word AU is already found: false[0m
+[95m[2024-05-06T14:56:19.830Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T14:56:19.830Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T14:56:19.830Z] [96m[INFO]: the letter array is u,e,x,m,p,i,j,l,o,a[0m
+[95m[2024-05-06T14:56:19.830Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T14:56:19.830Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T14:56:19.830Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T14:56:19.855Z] [96m[INFO]: {
+  _id: new ObjectId('6638ef80c52fb310404630ba'),
+  matchId: 'e01af363-5165-421c-8e6a-f0f2d7054387',
+  language: 'catalan',
+  letters: [
+    'u', 'e', 'x', 'm',
+    'p', 'i', 'j', 'l',
+    'o', 'a'
+  ],
+  words: [],
+  userScores: Map(1) { 'alex' => 0 },
+  startDate: '2024-05-06T16:56:00.397Z',
+  endDate: null,
+  __v: 0
+}[0m
+[95m[2024-05-06T14:56:51.602Z] [96m[INFO]: Room e01af363-5165-421c-8e6a-f0f2d7054387 match has ended[0m
+[95m[2024-05-06T14:56:51.603Z] [93m[WARN]: Deleting room e01af363-5165-421c-8e6a-f0f2d7054387[0m
+[95m[2024-05-06T15:00:35.436Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T15:00:39.062Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T15:00:39.078Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T15:00:42.436Z] [96m[INFO]: Received join message from socket datxe3WgD7nLGCUZAAAB[0m
+[95m[2024-05-06T15:00:42.441Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T15:00:42.441Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T15:00:42.441Z] [96m[INFO]: Room 374ba678-0676-428d-8321-1c51889efd55 match starting in 5000 ms.[0m
+[95m[2024-05-06T15:00:42.441Z] [96m[INFO]: Assigned player with nickname alex to room 374ba678-0676-428d-8321-1c51889efd55[0m
+[95m[2024-05-06T15:00:49.473Z] [96m[INFO]: Room 374ba678-0676-428d-8321-1c51889efd55 match has started[0m
+[95m[2024-05-06T15:01:01.985Z] [96m[INFO]: [0m
+[95m[2024-05-06T15:01:01.985Z] [96m[INFO]: the word NO is already found: false[0m
+[95m[2024-05-06T15:01:01.985Z] [96m[INFO]: the word NO exists[0m
+[95m[2024-05-06T15:01:01.985Z] [96m[INFO]: the lower cased word is no[0m
+[95m[2024-05-06T15:01:01.985Z] [96m[INFO]: the letter array is e,u,t,i,n,r,a,o,,[0m
+[95m[2024-05-06T15:01:01.985Z] [96m[INFO]: evaluating n[0m
+[95m[2024-05-06T15:01:01.985Z] [96m[INFO]: evaluating o[0m
+[95m[2024-05-06T15:01:01.985Z] [96m[INFO]: all letters are valid for word NO[0m
+[95m[2024-05-06T15:01:02.096Z] [96m[INFO]: {
+  _id: new ObjectId('6638f0a19a42ab023b0243f7'),
+  matchId: '374ba678-0676-428d-8321-1c51889efd55',
+  language: 'catalan',
+  letters: [
+    'e',  'u', 't',
+    'i',  'n', 'r',
+    'a',  'o', null,
+    null
+  ],
+  words: [],
+  userScores: Map(1) { 'alex' => 0 },
+  startDate: '2024-05-06T17:00:49.469Z',
+  endDate: null,
+  __v: 0
+}[0m
+[95m[2024-05-06T15:01:02.098Z] [91m[ERROR]: Error while updating match 374ba678-0676-428d-8321-1c51889efd55 words. Cannot read properties of undefined (reading 'push')[0m
+[95m[2024-05-06T15:01:40.690Z] [96m[INFO]: Room 374ba678-0676-428d-8321-1c51889efd55 match has ended[0m
+[95m[2024-05-06T15:01:40.691Z] [93m[WARN]: Deleting room 374ba678-0676-428d-8321-1c51889efd55[0m
+[95m[2024-05-06T15:04:32.570Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T15:04:34.331Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T15:04:34.349Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T15:04:35.849Z] [96m[INFO]: Received join message from socket ndxYyGWbxxW8aloSAAAB[0m
+[95m[2024-05-06T15:04:35.863Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T15:04:35.863Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T15:04:35.864Z] [96m[INFO]: Room d8b4580f-94ee-45db-9ab7-2b89d37c14a1 match starting in 5000 ms.[0m
+[95m[2024-05-06T15:04:35.864Z] [96m[INFO]: Assigned player with nickname alex to room d8b4580f-94ee-45db-9ab7-2b89d37c14a1[0m
+[95m[2024-05-06T15:04:42.900Z] [96m[INFO]: Room d8b4580f-94ee-45db-9ab7-2b89d37c14a1 match has started[0m
+[95m[2024-05-06T15:04:46.441Z] [91m[ERROR]: Error while checking if AU is already found Cannot read properties of undefined (reading 'type')[0m
+[95m[2024-05-06T15:04:46.441Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T15:04:46.442Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T15:04:46.442Z] [96m[INFO]: the letter array is e,a,d,o,g,i,u,,c,y[0m
+[95m[2024-05-06T15:04:46.442Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T15:04:46.442Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T15:04:46.442Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T15:04:46.465Z] [96m[INFO]: {
+  _id: new ObjectId('6638f18a3951c30e0dc90d8f'),
+  matchId: 'd8b4580f-94ee-45db-9ab7-2b89d37c14a1',
+  language: 'catalan',
+  letters: [
+    'e', 'a',  'd',
+    'o', 'g',  'i',
+    'u', null, 'c',
+    'y'
+  ],
+  words: [],
+  userScores: Map(1) { 'alex' => 0 },
+  startDate: '2024-05-06T17:04:42.895Z',
+  endDate: null,
+  __v: 0
+}[0m
+[95m[2024-05-06T15:04:46.467Z] [91m[ERROR]: Error while updating match d8b4580f-94ee-45db-9ab7-2b89d37c14a1 words. Cannot read properties of undefined (reading 'push')[0m
+[95m[2024-05-06T15:05:34.088Z] [96m[INFO]: Room d8b4580f-94ee-45db-9ab7-2b89d37c14a1 match has ended[0m
+[95m[2024-05-06T15:05:34.088Z] [93m[WARN]: Deleting room d8b4580f-94ee-45db-9ab7-2b89d37c14a1[0m
+[95m[2024-05-06T15:05:38.736Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T15:05:41.084Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T15:05:41.111Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T15:05:42.532Z] [96m[INFO]: Received join message from socket 4AjUftgS3AMwZ5oCAAAB[0m
+[95m[2024-05-06T15:05:42.544Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T15:05:42.545Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T15:05:42.546Z] [96m[INFO]: Room 6eccbd53-24e4-4c70-9467-28f8df866c74 match starting in 5000 ms.[0m
+[95m[2024-05-06T15:05:42.546Z] [96m[INFO]: Assigned player with nickname alex to room 6eccbd53-24e4-4c70-9467-28f8df866c74[0m
+[95m[2024-05-06T15:05:49.574Z] [96m[INFO]: Room 6eccbd53-24e4-4c70-9467-28f8df866c74 match has started[0m
+[95m[2024-05-06T15:05:52.642Z] [96m[INFO]: the word AU is already found: false[0m
+[95m[2024-05-06T15:05:52.643Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T15:05:52.643Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T15:05:52.643Z] [96m[INFO]: the letter array is o,a,e,u,i,p,,y,,x[0m
+[95m[2024-05-06T15:05:52.643Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T15:05:52.643Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T15:05:52.643Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T15:05:52.672Z] [91m[ERROR]: Error while updating match 6eccbd53-24e4-4c70-9467-28f8df866c74 words. Cannot read properties of undefined (reading 'type')[0m
+[95m[2024-05-06T15:06:40.666Z] [96m[INFO]: Room 6eccbd53-24e4-4c70-9467-28f8df866c74 match has ended[0m
+[95m[2024-05-06T15:06:40.671Z] [93m[WARN]: Deleting room 6eccbd53-24e4-4c70-9467-28f8df866c74[0m
+[95m[2024-05-06T15:08:35.353Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T15:08:37.291Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T15:08:37.306Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T15:08:41.362Z] [96m[INFO]: Received join message from socket Dou_ETZ4GGLM22XKAAAB[0m
+[95m[2024-05-06T15:08:41.368Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T15:08:41.368Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T15:08:41.368Z] [96m[INFO]: Room 25d86d7e-375b-406f-8444-6000103b9f25 match starting in 5000 ms.[0m
+[95m[2024-05-06T15:08:41.368Z] [96m[INFO]: Assigned player with nickname alex to room 25d86d7e-375b-406f-8444-6000103b9f25[0m
+[95m[2024-05-06T15:08:48.403Z] [96m[INFO]: Room 25d86d7e-375b-406f-8444-6000103b9f25 match has started[0m
+[95m[2024-05-06T15:08:55.304Z] [96m[INFO]: the word AU is already found: false[0m
+[95m[2024-05-06T15:08:55.304Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T15:08:55.304Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T15:08:55.304Z] [96m[INFO]: the letter array is u,o,z,v,i,a,e,h,,[0m
+[95m[2024-05-06T15:08:55.304Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T15:08:55.305Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T15:08:55.305Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T15:08:55.326Z] [96m[INFO]: undefined[0m
+[95m[2024-05-06T15:08:55.326Z] [96m[INFO]: AU[0m
+[95m[2024-05-06T15:09:11.206Z] [96m[INFO]: the word AU is already found: false[0m
+[95m[2024-05-06T15:09:11.206Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T15:09:11.206Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T15:09:11.206Z] [96m[INFO]: the letter array is u,o,z,v,i,a,e,h,,[0m
+[95m[2024-05-06T15:09:11.206Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T15:09:11.206Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T15:09:11.206Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T15:09:11.231Z] [96m[INFO]: undefined[0m
+[95m[2024-05-06T15:09:11.232Z] [96m[INFO]: AU[0m
+[95m[2024-05-06T15:09:39.611Z] [96m[INFO]: Room 25d86d7e-375b-406f-8444-6000103b9f25 match has ended[0m
+[95m[2024-05-06T15:09:39.612Z] [93m[WARN]: Deleting room 25d86d7e-375b-406f-8444-6000103b9f25[0m
+[95m[2024-05-06T15:11:26.522Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T15:11:27.956Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T15:11:27.975Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T15:11:30.452Z] [96m[INFO]: Received join message from socket iQOSkjs-PGFmA5J8AAAB[0m
+[95m[2024-05-06T15:11:30.458Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T15:11:30.458Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T15:11:30.459Z] [96m[INFO]: Room 187a5e6a-274e-4e73-b5e4-d86ca04d2d13 match starting in 5000 ms.[0m
+[95m[2024-05-06T15:11:30.459Z] [96m[INFO]: Assigned player with nickname alex to room 187a5e6a-274e-4e73-b5e4-d86ca04d2d13[0m
+[95m[2024-05-06T15:11:37.483Z] [96m[INFO]: vowel array a,i,o,u,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:11:37.483Z] [96m[INFO]: vowel array a,o,u,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:11:37.484Z] [96m[INFO]: vowel array a,o,u,  consonant array b,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:11:37.484Z] [96m[INFO]: vowel array a,o,u,  consonant array b,d,f,g,h,j,k,l,m,n,p,q,r,s,t,w,x,y,z[0m
+[95m[2024-05-06T15:11:37.484Z] [96m[INFO]: vowel array a,o,u,  consonant array b,f,g,h,j,k,l,m,n,p,q,r,s,t,w,x,y,z[0m
+[95m[2024-05-06T15:11:37.484Z] [96m[INFO]: vowel array a,o,u,  consonant array b,f,g,h,j,k,l,m,n,p,q,r,s,t,w,x,z[0m
+[95m[2024-05-06T15:11:37.484Z] [96m[INFO]: vowel array a,o,u,  consonant array b,f,g,h,j,k,l,m,n,p,q,r,s,w,x,z[0m
+[95m[2024-05-06T15:11:37.484Z] [96m[INFO]: vowel array a,o,u,  consonant array b,f,g,h,j,k,l,m,n,p,q,r,s,w,z[0m
+[95m[2024-05-06T15:11:37.484Z] [96m[INFO]: vowel array a,u,  consonant array b,f,g,h,j,k,l,m,n,p,q,r,s,w,z[0m
+[95m[2024-05-06T15:11:37.484Z] [96m[INFO]: vowel array a,u,  consonant array b,f,g,h,k,l,m,n,p,q,r,s,w,z[0m
+[95m[2024-05-06T15:11:37.487Z] [96m[INFO]: Room 187a5e6a-274e-4e73-b5e4-d86ca04d2d13 match has started[0m
+[95m[2024-05-06T15:12:04.189Z] [96m[INFO]: the word VEI is already found: false[0m
+[95m[2024-05-06T15:12:04.189Z] [96m[INFO]: the word VEI exists[0m
+[95m[2024-05-06T15:12:04.189Z] [96m[INFO]: the lower cased word is vei[0m
+[95m[2024-05-06T15:12:04.190Z] [96m[INFO]: the letter array is e,i,c,v,d,y,t,x,o,j[0m
+[95m[2024-05-06T15:12:04.190Z] [96m[INFO]: evaluating v[0m
+[95m[2024-05-06T15:12:04.190Z] [96m[INFO]: evaluating e[0m
+[95m[2024-05-06T15:12:04.190Z] [96m[INFO]: evaluating i[0m
+[95m[2024-05-06T15:12:04.190Z] [96m[INFO]: all letters are valid for word VEI[0m
+[95m[2024-05-06T15:12:04.341Z] [96m[INFO]: undefined[0m
+[95m[2024-05-06T15:12:04.341Z] [96m[INFO]: VEI[0m
+[95m[2024-05-06T15:12:11.651Z] [96m[INFO]: the word VEI is already found: false[0m
+[95m[2024-05-06T15:12:11.651Z] [96m[INFO]: the word VEI exists[0m
+[95m[2024-05-06T15:12:11.651Z] [96m[INFO]: the lower cased word is vei[0m
+[95m[2024-05-06T15:12:11.651Z] [96m[INFO]: the letter array is e,i,c,v,d,y,t,x,o,j[0m
+[95m[2024-05-06T15:12:11.651Z] [96m[INFO]: evaluating v[0m
+[95m[2024-05-06T15:12:11.651Z] [96m[INFO]: evaluating e[0m
+[95m[2024-05-06T15:12:11.651Z] [96m[INFO]: evaluating i[0m
+[95m[2024-05-06T15:12:11.651Z] [96m[INFO]: all letters are valid for word VEI[0m
+[95m[2024-05-06T15:12:11.796Z] [96m[INFO]: undefined[0m
+[95m[2024-05-06T15:12:11.796Z] [96m[INFO]: VEI[0m
+[95m[2024-05-06T15:12:28.689Z] [96m[INFO]: Room 187a5e6a-274e-4e73-b5e4-d86ca04d2d13 match has ended[0m
+[95m[2024-05-06T15:12:28.690Z] [93m[WARN]: Deleting room 187a5e6a-274e-4e73-b5e4-d86ca04d2d13[0m
+[95m[2024-05-06T15:13:29.048Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T15:13:30.782Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T15:13:30.816Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T15:13:37.205Z] [96m[INFO]: Received join message from socket JXqshpwm9kYFGR5AAAAB[0m
+[95m[2024-05-06T15:13:37.209Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T15:13:37.210Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T15:13:37.210Z] [96m[INFO]: Room c7dedeb7-c1e4-4fe2-8eda-7676306d7dd1 match starting in 5000 ms.[0m
+[95m[2024-05-06T15:13:37.210Z] [96m[INFO]: Assigned player with nickname alex to room c7dedeb7-c1e4-4fe2-8eda-7676306d7dd1[0m
+[95m[2024-05-06T15:13:44.230Z] [96m[INFO]: vowel array a,e,i,u,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.231Z] [96m[INFO]: vowel array a,e,i,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.231Z] [96m[INFO]: vowel array a,e,i,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.231Z] [96m[INFO]: vowel array a,e,i,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,t,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.231Z] [96m[INFO]: vowel array a,e,i,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,r,t,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.231Z] [96m[INFO]: vowel array a,e,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,r,t,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.231Z] [96m[INFO]: vowel array a,e,  consonant array b,c,d,f,g,h,j,k,l,n,p,r,t,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.231Z] [96m[INFO]: vowel array a,e,  consonant array b,c,d,f,g,h,j,k,l,n,p,r,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.231Z] [96m[INFO]: vowel array a,e,  consonant array c,d,f,g,h,j,k,l,n,p,r,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.231Z] [96m[INFO]: vowel array a,e,  consonant array c,d,f,g,h,j,k,l,n,r,w,x,y,z[0m
+[95m[2024-05-06T15:13:44.234Z] [96m[INFO]: Room c7dedeb7-c1e4-4fe2-8eda-7676306d7dd1 match has started[0m
+[95m[2024-05-06T15:13:49.018Z] [96m[INFO]: the word OU is already found: false[0m
+[95m[2024-05-06T15:13:49.018Z] [96m[INFO]: the word OU exists[0m
+[95m[2024-05-06T15:13:49.019Z] [96m[INFO]: the lower cased word is ou[0m
+[95m[2024-05-06T15:13:49.019Z] [96m[INFO]: the letter array is o,u,v,s,q,i,m,t,b,p[0m
+[95m[2024-05-06T15:13:49.019Z] [96m[INFO]: evaluating o[0m
+[95m[2024-05-06T15:13:49.019Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T15:13:49.019Z] [96m[INFO]: all letters are valid for word OU[0m
+[95m[2024-05-06T15:13:49.131Z] [96m[INFO]: the match found words are: undefined[0m
+[95m[2024-05-06T15:13:49.131Z] [96m[INFO]: the new match found words are: OU[0m
+[95m[2024-05-06T15:13:57.611Z] [96m[INFO]: the word OU is already found: false[0m
+[95m[2024-05-06T15:13:57.611Z] [96m[INFO]: the word OU exists[0m
+[95m[2024-05-06T15:13:57.611Z] [96m[INFO]: the lower cased word is ou[0m
+[95m[2024-05-06T15:13:57.611Z] [96m[INFO]: the letter array is o,u,v,s,q,i,m,t,b,p[0m
+[95m[2024-05-06T15:13:57.611Z] [96m[INFO]: evaluating o[0m
+[95m[2024-05-06T15:13:57.611Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T15:13:57.611Z] [96m[INFO]: all letters are valid for word OU[0m
+[95m[2024-05-06T15:13:57.726Z] [96m[INFO]: the match found words are: undefined[0m
+[95m[2024-05-06T15:13:57.726Z] [96m[INFO]: the new match found words are: OU[0m
+[95m[2024-05-06T15:14:35.422Z] [96m[INFO]: Room c7dedeb7-c1e4-4fe2-8eda-7676306d7dd1 match has ended[0m
+[95m[2024-05-06T15:14:35.423Z] [93m[WARN]: Deleting room c7dedeb7-c1e4-4fe2-8eda-7676306d7dd1[0m
+[95m[2024-05-06T15:15:17.091Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T15:15:19.498Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T15:15:19.515Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T15:15:21.236Z] [96m[INFO]: Received join message from socket j5XoH873vdVc5cYKAAAB[0m
+[95m[2024-05-06T15:15:21.244Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T15:15:21.244Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T15:15:21.245Z] [96m[INFO]: Room 1a6a175d-e356-46ef-8e80-1f64fd1a7748 match starting in 5000 ms.[0m
+[95m[2024-05-06T15:15:21.245Z] [96m[INFO]: Assigned player with nickname alex to room 1a6a175d-e356-46ef-8e80-1f64fd1a7748[0m
+[95m[2024-05-06T15:15:28.271Z] [96m[INFO]: vowel array a,e,i,o,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:15:28.272Z] [96m[INFO]: vowel array e,i,o,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:15:28.272Z] [96m[INFO]: vowel array e,i,o,  consonant array b,c,d,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:15:28.272Z] [96m[INFO]: vowel array e,i,o,  consonant array b,d,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:15:28.272Z] [96m[INFO]: vowel array e,o,  consonant array b,d,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:15:28.272Z] [96m[INFO]: vowel array e,  consonant array b,d,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:15:28.272Z] [96m[INFO]: vowel array e,  consonant array b,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:15:28.272Z] [96m[INFO]: vowel array e,  consonant array b,g,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:15:28.273Z] [96m[INFO]: vowel array e,  consonant array b,g,j,k,l,m,n,p,q,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:15:28.273Z] [96m[INFO]: vowel array e,  consonant array b,g,j,k,l,m,n,p,q,s,t,v,x,y,z[0m
+[95m[2024-05-06T15:15:28.277Z] [96m[INFO]: Room 1a6a175d-e356-46ef-8e80-1f64fd1a7748 match has started[0m
+[95m[2024-05-06T15:15:35.014Z] [96m[INFO]: the word AU is already found: false[0m
+[95m[2024-05-06T15:15:35.015Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T15:15:35.015Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T15:15:35.015Z] [96m[INFO]: the letter array is u,a,f,c,i,o,d,h,r,w[0m
+[95m[2024-05-06T15:15:35.015Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T15:15:35.015Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T15:15:35.015Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T15:15:35.036Z] [96m[INFO]: the match found words are: [0m
+[95m[2024-05-06T15:15:35.036Z] [96m[INFO]: the new match found words are: AU[0m
+[95m[2024-05-06T15:15:37.574Z] [96m[INFO]: the word AU is already found: false[0m
+[95m[2024-05-06T15:15:37.574Z] [96m[INFO]: the word AU exists[0m
+[95m[2024-05-06T15:15:37.574Z] [96m[INFO]: the lower cased word is au[0m
+[95m[2024-05-06T15:15:37.574Z] [96m[INFO]: the letter array is u,a,f,c,i,o,d,h,r,w[0m
+[95m[2024-05-06T15:15:37.574Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T15:15:37.574Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T15:15:37.574Z] [96m[INFO]: all letters are valid for word AU[0m
+[95m[2024-05-06T15:15:37.599Z] [96m[INFO]: the match found words are: AU[0m
+[95m[2024-05-06T15:15:37.599Z] [96m[INFO]: the new match found words are: AU,AU[0m
+[95m[2024-05-06T15:16:19.478Z] [96m[INFO]: Room 1a6a175d-e356-46ef-8e80-1f64fd1a7748 match has ended[0m
+[95m[2024-05-06T15:16:19.478Z] [93m[WARN]: Deleting room 1a6a175d-e356-46ef-8e80-1f64fd1a7748[0m
+[95m[2024-05-06T15:18:43.715Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m
+[95m[2024-05-06T15:18:45.512Z] [96m[INFO]: HTTP Server listening on port 3000[0m
+[95m[2024-05-06T15:18:45.528Z] [96m[INFO]: Connected to MongoDB[0m
+[95m[2024-05-06T15:18:48.258Z] [96m[INFO]: Received join message from socket a4uyBvRo6lb8E5YQAAAB[0m
+[95m[2024-05-06T15:18:48.265Z] [96m[INFO]: User with nickname alex has been validated.[0m
+[95m[2024-05-06T15:18:48.265Z] [93m[WARN]: No rooms available, creating new one...[0m
+[95m[2024-05-06T15:18:48.266Z] [96m[INFO]: Room a5a7a5fb-63f3-45ce-a86e-ea1785781a50 match starting in 5000 ms.[0m
+[95m[2024-05-06T15:18:48.266Z] [96m[INFO]: Assigned player with nickname alex to room a5a7a5fb-63f3-45ce-a86e-ea1785781a50[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array a,i,o,u,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array a,o,u,  consonant array b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array a,o,u,  consonant array b,c,d,f,g,h,k,l,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array a,o,u,  consonant array b,c,d,f,g,h,k,m,n,p,q,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array a,o,u,  consonant array b,c,d,f,g,h,k,m,n,p,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array a,o,u,  consonant array b,c,d,f,g,h,k,m,p,r,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array a,o,u,  consonant array b,c,d,f,g,h,k,m,p,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array a,o,u,  consonant array b,c,d,f,g,h,k,p,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array a,o,  consonant array b,c,d,f,g,h,k,p,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.295Z] [96m[INFO]: vowel array o,  consonant array b,c,d,f,g,h,k,p,s,t,v,w,x,y,z[0m
+[95m[2024-05-06T15:18:55.299Z] [96m[INFO]: Room a5a7a5fb-63f3-45ce-a86e-ea1785781a50 match has started[0m
+[95m[2024-05-06T15:19:01.672Z] [96m[INFO]: the word NAU is already found: false[0m
+[95m[2024-05-06T15:19:01.672Z] [96m[INFO]: the word NAU exists[0m
+[95m[2024-05-06T15:19:01.672Z] [96m[INFO]: the lower cased word is nau[0m
+[95m[2024-05-06T15:19:01.672Z] [96m[INFO]: the letter array is e,i,j,l,q,n,r,m,u,a[0m
+[95m[2024-05-06T15:19:01.672Z] [96m[INFO]: evaluating n[0m
+[95m[2024-05-06T15:19:01.672Z] [96m[INFO]: evaluating a[0m
+[95m[2024-05-06T15:19:01.672Z] [96m[INFO]: evaluating u[0m
+[95m[2024-05-06T15:19:01.672Z] [96m[INFO]: all letters are valid for word NAU[0m
+[95m[2024-05-06T15:19:01.784Z] [96m[INFO]: the match found words are: [0m
+[95m[2024-05-06T15:19:01.785Z] [96m[INFO]: the new match found words are: NAU[0m
+[95m[2024-05-06T15:19:04.877Z] [96m[INFO]: the word NAU is already found: true[0m
+[95m[2024-05-06T15:19:46.474Z] [96m[INFO]: Room a5a7a5fb-63f3-45ce-a86e-ea1785781a50 match has ended[0m
+[95m[2024-05-06T15:19:46.475Z] [93m[WARN]: Deleting room a5a7a5fb-63f3-45ce-a86e-ea1785781a50[0m
+[95m[2024-05-06T15:21:09.836Z] [96m[INFO]: Received kill signal, shutting down gracefully[0m

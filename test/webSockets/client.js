@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 });
 
 console.log('starting client...');
-const socket = io('http://127.0.0.1:80');
+const socket = io('http://127.0.0.1:3000');
 
 socket.on('connect', () => {
     displayMenu();
@@ -19,11 +19,11 @@ socket.on('join', (data) => {
 });
 
 socket.on('startTime', (data) => {
-    console.log(data);
+//    console.log(data);
 })
 
 socket.on('timeLeft', (data) => {
-    console.log(data);
+//    console.log(data);
 })
 
 socket.on('matchScores', (data) => {

@@ -17,7 +17,7 @@ function shutDown() {
 }
 
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 const server = http.createServer(app);
 const { handleJoin, handleWord, handleDisconnect } = require('./game/messageProtocol');
 
@@ -41,7 +41,7 @@ io.on('connection', socket => {
     });
 
     socket.on('word', async (message) => {
-        await handleWord(socket, message, wordUtils);
+        await handleWord(socket, message, wordUtils, rooms, roomId, user);
     });
 
     socket.on('disconnect', async () => {

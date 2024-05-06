@@ -94,7 +94,7 @@ class Match {
 
         } 
         
-        else if (remainingMillis == 0) {
+        else if (remainingMillis === 0) {
             logger.info(`Room ${this.room.id} match has ended`);
             clearInterval(this.initiateTimer);
 
@@ -130,28 +130,32 @@ class Match {
     }
 
     /**
-     * Generates an array of 10 letters, of which atleast 2 are vowels.
-     * 
+     * Generates an array of 10 letters, of which at least 2 are vowels.
+     *
      * @returns Array of ten letters.
      */
     generateLetters() {
         const vowels = ['a', 'e', 'i', 'o', 'u'];
         const consonants = 'bcdfghjklmnpqrstvwxyz'.split('');
-    
+
         let letters = [];
         let vowelCount = 0;
-    
+
         for (let i = 0; i < 10; i++) {
             let letter;
-            if (vowelCount < 2 || Math.random() < 0.5) {
-                letter = vowels[Math.floor(Math.random() * vowels.length)];
+            if (vowelCount < 2 || Math.random() < 0.2) {
+                const vowelIndex = Math.floor(Math.random() * vowels.length);
+                letter = vowels[Math.floor(vowelIndex)];
+                vowels.splice(vowelIndex, 1);
                 vowelCount++;
             } else {
-                letter = consonants[Math.floor(Math.random() * consonants.length)];
+                const consonantIndex = Math.floor(Math.random() * consonants.length);
+                letter = consonants[Math.floor(consonantIndex)];
+                consonants.splice(consonantIndex, 1);
             }
             letters.push(letter);
         }
-    
+
         return letters;
     }
 
@@ -171,22 +175,36 @@ class Match {
         });
     }
 
-    async updateMatchWords(word) {
+    async updateMatchWords(word, score, user) {
         try {
-            const match = await MatchModel.find({matchId: this.room.id});
-
-            if (!match) {
-                throw Error(`No matching match found.`);
-            }
-
-            const wordArray = match.words || [];
+            const match = await MatchModel.findOne({matchId: this.room.id});
+            let wordArray = match.words || [];
             wordArray.push(word);
 
-            await MatchModel.updateOne({matchId: this.room.id}, {words: wordArray});
+            const previousScore = this.scores.get(user.nickname);
+            this.scores.set(user.nickname, score + previousScore);
+
+            const userScores = JSON.parse(this.calculateRanking());
+            await MatchModel.updateOne(
+                {matchId: this.room.id},
+                {words: wordArray, userScores: userScores});
         }
         catch (error) {
-            logger.error(`Error while updating math ${this.room.id} words.`, error);
+            logger.error(`Error while updating match ${this.room.id} words.`, error);
         }
+    }
+
+    async isWordFound(word) {
+        let found = false;
+        try {
+            const match = await MatchModel.findOne({matchId: this.room.id});
+            const wordArray = match.words || [];
+            found = wordArray.includes(word);
+
+        } catch (error) {
+            logger.error(`Error while checking if ${word} is already found`, error);
+        }
+        return found;
     }
 
     /**

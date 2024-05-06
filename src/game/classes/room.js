@@ -13,7 +13,7 @@ class Room {
     constructor(id, roomMap) {
         this.id = id;
         this.users = new Map();
-        this.match = new Match(this, 5000, 5000);
+        this.match = new Match(this, 5000, 50000);
         this.roomMap = roomMap;
     }
 
