@@ -47,5 +47,10 @@ io.on('connection', socket => {
     socket.on('disconnect', async () => {
         await handleDisconnect(socket, user, roomId, rooms, logger);
     });
+
+    socket.on(`rooms`, async () => {
+        return JSON.stringify(rooms.keys());
+    });
+    
 });
 

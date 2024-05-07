@@ -145,12 +145,12 @@ class Match {
             let letter;
             if (vowelCount < 2 || Math.random() < 0.2) {
                 const vowelIndex = Math.floor(Math.random() * vowels.length);
-                letter = vowels[Math.floor(vowelIndex)];
+                letter = vowels[vowelIndex];
                 vowels.splice(vowelIndex, 1);
                 vowelCount++;
             } else {
                 const consonantIndex = Math.floor(Math.random() * consonants.length);
-                letter = consonants[Math.floor(consonantIndex)];
+                letter = consonants[consonantIndex];
                 consonants.splice(consonantIndex, 1);
             }
             letters.push(letter);
@@ -158,6 +158,7 @@ class Match {
 
         return letters;
     }
+
 
     /**
      * Inserts the match on it's starting status on the mongoDB database.
